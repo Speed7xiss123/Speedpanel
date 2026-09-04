@@ -1,0 +1,2864 @@
+{
+  "cpf": "01239209738",
+  "consulta": {
+    "cadastral": {
+      "cpf": "01239209738",
+      "cpf_mask": "012.392.097-38",
+      "nome": "Isabela Jorge Sampaio",
+      "nome_unico": true,
+      "criminal": false,
+      "mae": {
+        "nome": "Marlene Jorge Sampaio",
+        "cpf": "00900618701"
+      },
+      "sexo": "F",
+      "data_nasc": "26/02/1971",
+      "signo": "Peixes",
+      "signo_chines": "Porco",
+      "idade": 55,
+      "renda": "R$ 2.122,00",
+      "escolaridade": "SUPERIOR COMPLETO",
+      "classe_social": "B",
+      "subclasse": "B2",
+      "cns": 706007811533344,
+      "capital": 80000,
+      "rg": {
+        "numero": "91861237"
+      },
+      "titulo": {
+        "numero": 77741040388
+      },
+      "obito": false
+    },
+    "vazamentos": [
+      {
+        "tipo": "USERNAME",
+        "valor": "comercial",
+        "resultados": [
+          {
+            "url": "https://mailpro.uol.com.br",
+            "login": "comercial",
+            "password": "zILDJIAN318",
+            "host": "mailpro.uol.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "accounts.google.com/signin/v2/challenge/pwd:mari.agu0507",
+            "login": "comercial",
+            "password": "tomasmiranda2017",
+            "host": "accounts.google.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.thinkorswim.com/t/pm-registration.html",
+            "login": "Comercial",
+            "password": "9AC76918D",
+            "host": "www.thinkorswim.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "https://facebook.com/settings:face",
+            "login": "comercial",
+            "password": "Vhsm70583167",
+            "host": "facebook.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "wifisafe.com/login.php",
+            "login": "comercial",
+            "password": "G8LE",
+            "host": "wifisafe.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "app.turbomedia.io/register",
+            "login": "comercial",
+            "password": "Hellopeople3",
+            "host": "app.turbomedia.io",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "https://ovh.com/manager/web",
+            "login": "comercial",
+            "password": "oflis6734flas",
+            "host": "ovh.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "ltc.cempakajaya.com/account/register",
+            "login": "comercial",
+            "password": "BgTvFr",
+            "host": "ltc.cempakajaya.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "alfa.com/es/registration/register/",
+            "login": "comercial",
+            "password": "Alba3D",
+            "host": "alfa.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "eccofacturas.com",
+            "login": "comercial",
+            "password": "FOSJ7812",
+            "host": "eccofacturas.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "192.168.100.1/",
+            "login": "comercial",
+            "password": "120170",
+            "host": "192.168.100.1",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "manage.flockmail.com/email-accounts",
+            "login": "comercial",
+            "password": "00762120Brenno",
+            "host": "manage.flockmail.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "lhost.com.br/endstartec.com.br/",
+            "login": "comercial",
+            "password": "15086com",
+            "host": "lhost.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "auth.spectrasonics.net/useracct/",
+            "login": "comercial",
+            "password": "enlistedr8bas",
+            "host": "auth.spectrasonics.net",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "nfpajla.org/servicios/suscripcion-al-nfpa-jla/registers",
+            "login": "comercial",
+            "password": "Fire2018.",
+            "host": "nfpajla.org",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.roblox.com/login",
+            "login": "comercial",
+            "password": "4707",
+            "host": "www.roblox.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "seguro.com.br/m4tatica.com.br/",
+            "login": "comercial",
+            "password": "M4tatica@2021",
+            "host": "seguro.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "wifisafe.com/formacion-wifi/webinar-solucion-wifi-hotel",
+            "login": "comercial",
+            "password": "t23F",
+            "host": "wifisafe.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.roblox.com/games/",
+            "login": "comercial",
+            "password": "LDSKentucky11",
+            "host": "www.roblox.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "steamcommunity.com/openid/login",
+            "login": "comercial",
+            "password": "MqFbzG26WK96321",
+            "host": "steamcommunity.com",
+            "file_date": "2024-06-01"
+          }
+        ]
+      },
+      {
+        "tipo": "USERNAME",
+        "valor": "joao",
+        "resultados": [
+          {
+            "url": "https://m.facebook.com/login.php",
+            "login": "Joao",
+            "password": "@Joao19685221",
+            "host": "m.facebook.com",
+            "file_date": "2025-09-25"
+          },
+          {
+            "url": "www.pacgames.com.br/cadastro_cliente",
+            "login": "joao",
+            "password": "LonX2021",
+            "host": "www.pacgames.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "twitter.com/login/error",
+            "login": "joao",
+            "password": "123fortnite",
+            "host": "twitter.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "trucoon.com.br/jogo/",
+            "login": "joao",
+            "password": "guilerme",
+            "host": "trucoon.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "app.asana.com/0/account_setup",
+            "login": "Joao",
+            "password": "F970405p@#",
+            "host": "app.asana.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.facebook.com/acaiquedelicia/settings/",
+            "login": "JOAO",
+            "password": "ALVO",
+            "host": "www.facebook.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "unitecinformatica-com.umbler.net/installation/index.php",
+            "login": "joao",
+            "password": "unitec045",
+            "host": "unitecinformatica-com.umbler.net",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.instagram.com/accounts/signup/name",
+            "login": "Joao",
+            "password": "123321",
+            "host": "www.instagram.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "https://www.twino.eu/en/registration/register",
+            "login": "joao",
+            "password": "dragaobarbudo1!",
+            "host": "www.twino.eu",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "online.megaflix.trailers.v2/",
+            "login": "Joao",
+            "password": "26062774",
+            "host": "online.megaflix.trailers.v2",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "xone.fun/en/register",
+            "login": "joao",
+            "password": "Junior1304.",
+            "host": "xone.fun",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.m2.bradesco.com.br/",
+            "login": "Joao",
+            "password": "2755",
+            "host": "www.m2.bradesco.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "app.iclips.com.br/acessedigital",
+            "login": "joao",
+            "password": "digi2020",
+            "host": "app.iclips.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.facebook.com/mktanalisealvo/settings/",
+            "login": "joao",
+            "password": "alvo",
+            "host": "www.facebook.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.ebay.com/signin/scl/s",
+            "login": "Joao",
+            "password": "Lucas",
+            "host": "www.ebay.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "app.amplifique.me/create-account",
+            "login": "Joao",
+            "password": "joao.freire2005",
+            "host": "app.amplifique.me",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "www.ingresso.com/minha-conta/cadastro",
+            "login": "joao",
+            "password": "pedro",
+            "host": "www.ingresso.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "gamejolt.com/join",
+            "login": "(joao)",
+            "password": "29098213",
+            "host": "gamejolt.com",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "sitemercado.com.br/goodbom/hortolandia-hortolandia-jardim-do-bosque-avenida-emancipacao",
+            "login": "joao",
+            "password": "paty140511",
+            "host": "sitemercado.com.br",
+            "file_date": "2024-06-01"
+          },
+          {
+            "url": "stoodi.com.br/exercicios/ufrgs/outros/questao/os-carboidratos-moleculas-constituidas-em-geral-por-atomos-de-carbono",
+            "login": "JOAO",
+            "password": "PEDRO",
+            "host": "stoodi.com.br",
+            "file_date": "2024-06-01"
+          }
+        ]
+      }
+    ],
+    "escolaridade": [
+      {
+        "nivel": "FUNDAMENTAL COMPLETO"
+      },
+      {
+        "nivel": "MEDIO COMPLETO"
+      },
+      {
+        "nivel": "SUPERIOR COMPLETO"
+      }
+    ],
+    "genitores": [
+      {
+        "cpf": 1239209738,
+        "relacao": "MAE",
+        "nome": "Marlene Jorge Sampaio",
+        "cpf_genitor": 900618701
+      }
+    ],
+    "fotos": [
+      {
+        "cpf": "01239209738",
+        "foto": "https://reidasfotosbr.com/v1/f1ec5bb46e37430069f9a6a1865373e2d988694b94ede7c1be9f8c7ef0c502aa5cbf203cfa3587131187ea97749f7a5cb11431cfdc5e0047428aaa63305d27d20f056ab7ce001c6065aff51b1c9dc5f82c23730957df0c591c01a867548fe01f643fb9789a6bdcdeab3dfead90045b924e71c2392f22419cdf571c2172ecc4d0cb0f2faf4c326b800bdf1595fb729b96243b10935dd27474411781b673649151773179389057c806da6eeab8d7796fb56a5ad7618c7ef624664c14631848ceeb767c74e0b3774f6e3ee52b5d0ca742e6db0e0bad39231a15ff4bc8e35225d3293d4b1aafe9539daf3cabfb089cbe78a590c58853d75b1fc8bf250a90fa2d00281f57ff159a1763443a6955777686f905d705b34f4690c0e963907cf594a874ab8bee0925dae006160f1a61194029b9e0a08c491d90e8556e26b514924987b9dc8e88d06d9ea9ec1f6f8ba4ad80037e223dfdb38d6ccfab31e0bca42af1ab9c47256de37d500285df56dd14f596970ea5e9f49ea706fd911ffd92c9667f98cdadf079f3cd7b28843649df5057ff893717426d62ba4a49825c7cef98588979c7d1eb6026a50226f28de836145039bb4c4254f40ebeb2c19aa9f78b0ccef5056d6c",
+        "classificacao": 100
+      },
+      {
+        "cpf": "01239209738",
+        "foto": "https://reidasfotosbr.com/v1/e1abffc8d8a132cfec4f095e7726d9cff79ada19cec749d0b23e4e48f0249b28571872743aa4d628008e45654a9bc09787c884f568d0529d830a968d0942d4b0c14be6e0827ceee5c687ae07aa55b8494e98cf6d69f026dab69e95908a17a8e2fa63b5497ff2004cf9eeb7f969ff2faf2a77f4ca601b56e21f820741dc5cb3ad4bfc46b4c630cda0c97ce653eb47295bf5c4c1e62bf4dbb30c0467d175956fc68f62f56766f4a81847eec9607ac09dcb4960cdb21b3f43b6a337ddf31c483437c418d605e9944d9fdf30294656c512f9bb91091ec8c6d20ce49431d959e8788c3f958dd98f26ef00c35b2afeec2c4257ea44cd15689d9af7e8cfdff86b30de5b9c4073186911f4c275c9539b16be2f98fe8eeb241070e189d5311421293add4e31f5155e24c2900010203e2af5e643c3fe3f3047291be2f63c1579d9720f96cae4756c88a3990c816f0d886d50cec7e4e900098b38261c0026633e1a75bdb8cd57000360e6f69431cf7945f0d71118aeb14d2922c40d314cf5959e891f78ac5ced3a93b193dcee2ce12a1a53f0ad2b703cf36c9c75cdf81a7eea9662cc84c0dc6a41e51e94ed3431bec36302f3fa005d1a6a4e4017ebcb7aee6d07a80621d25304506f1b3049a1bce0cd94e0f3654bc3",
+        "usuario": "isabelajsampaio",
+        "email_matches_with_name": true,
+        "classificacao": 50
+      }
+    ],
+    "pix": [
+      {
+        "cpf": 1239209738,
+        "tipo": "CPF",
+        "chave": "01239209738",
+        "status": "ATIVO",
+        "participante": "60701190",
+        "banco": "ITAÚ UNIBANCO S.A.",
+        "agencia": "6140",
+        "conta": "00275279",
+        "tipo_conta": "CONTA_CORRENTE"
+      },
+      {
+        "cpf": 1239209738,
+        "tipo": "TELEFONE",
+        "chave": "+5521999156848",
+        "status": "ATIVO",
+        "participante": "60701190",
+        "banco": "ITAÚ UNIBANCO S.A.",
+        "agencia": "6140",
+        "conta": "00275279",
+        "tipo_conta": "CONTA_POUPANCA"
+      }
+    ],
+    "enderecos": [
+      {
+        "endereco": "R JACARANDAS DA PENINSULA",
+        "numero": 1160,
+        "complemento": "BL 4 AP 1001 GR 2",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22776050",
+        "latitude": "-22.9887440",
+        "longitude": "-43.3556120",
+        "classificacao": "B",
+        "data_informacao": "2023-01-18T03:00:00.000Z",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "R 26 CJ A",
+        "numero": 0,
+        "complemento": "7",
+        "bairro": "RES DO BOSQUE SAO SEBASTIAO",
+        "cidade": "BRASILIA",
+        "uf": "DF",
+        "cep": "71694044",
+        "latitude": "0.0000000",
+        "longitude": "0.0000000",
+        "classificacao": "B",
+        "data_informacao": "2021-06-07T03:00:00.000Z",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "R JACARANDAS DA PENINSULA",
+        "numero": 1160,
+        "complemento": "BL 1 AP 402",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22776050",
+        "latitude": "-22.9887440",
+        "longitude": "-43.3556120",
+        "classificacao": "B",
+        "data_informacao": "2019-11-13T03:00:00.000Z",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "R JACARANDAS DA PENINSULA",
+        "numero": 1160,
+        "complemento": "BL 1 AP 402 GR 1",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22776050",
+        "latitude": "-22.9887440",
+        "longitude": "-43.3556120",
+        "classificacao": "B",
+        "data_informacao": "2019-08-06T03:00:00.000Z",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "R JACARANDAS DA PENINSULA",
+        "numero": 1160,
+        "complemento": "AP 402",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22776050",
+        "latitude": "-22.9887440",
+        "longitude": "-43.3556120",
+        "classificacao": "B",
+        "data_informacao": "2019-05-16T03:00:00.000Z",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "R MARIO COVAS JUNIOR",
+        "numero": 190,
+        "complemento": "AP 403",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22631030",
+        "latitude": "-23.0048120",
+        "longitude": "-43.3297437",
+        "classificacao": "A",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "R DA CHITA",
+        "numero": 132,
+        "complemento": "FDS",
+        "bairro": "BANGU",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21862170",
+        "latitude": "-22.8736831",
+        "longitude": "-43.4636568",
+        "classificacao": "B",
+        "data_informacao": "2002-07-03T03:00:00.000Z",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "R LEOPOLDINO DE OLIVEIRA",
+        "numero": 281,
+        "bairro": "MADUREIRA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21360060",
+        "latitude": "-22.8642750",
+        "longitude": "-43.3408810",
+        "classificacao": "B",
+        "data_informacao": "2013-08-24T03:00:00.000Z",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "R IRIGUACU",
+        "numero": 73,
+        "bairro": "BANGU",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21862030",
+        "latitude": "-22.8728112",
+        "longitude": "-43.4658205",
+        "classificacao": "B",
+        "data_informacao": "2014-05-21T03:00:00.000Z",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "R MARIO COVAS JUNIOR",
+        "numero": 190,
+        "complemento": "AP 702",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22631030",
+        "latitude": "-23.0048120",
+        "longitude": "-43.3297437",
+        "classificacao": "B",
+        "data_informacao": "2013-11-04T02:00:00.000Z",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "R IRIGUACU",
+        "numero": 80,
+        "bairro": "BANGU",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21862030",
+        "latitude": "-22.8730087",
+        "longitude": "-43.4656219",
+        "classificacao": "A",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "R IGUACU",
+        "numero": 73,
+        "bairro": "ENG LEAL",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21370130",
+        "latitude": "-22.8744534",
+        "longitude": "-43.3343994",
+        "classificacao": "B",
+        "data_informacao": "2013-05-28T03:00:00.000Z",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "R IGUACU",
+        "numero": 0,
+        "bairro": "ENG LEAL",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21370130",
+        "data_informacao": "2008-06-14T03:00:00.000Z",
+        "fonte": "SRS23;OUTRAS"
+      },
+      {
+        "endereco": "AV AYRTON SENNA",
+        "numero": 270,
+        "complemento": "BL 2 405",
+        "bairro": "BARRA DA TIJUCA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "22793909",
+        "latitude": "-23.0083150",
+        "longitude": "-43.3659640",
+        "classificacao": "B",
+        "data_informacao": "1997-06-01T03:00:00.000Z",
+        "fonte": "SRS23"
+      },
+      {
+        "endereco": "Rua Iriguaçu",
+        "numero": 73,
+        "complemento": "AP 101",
+        "bairro": "Bangu",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "21862030",
+        "latitude": "-22.8728112",
+        "longitude": "-43.4658205",
+        "classificacao": "A",
+        "data_informacao": "2023-12-31T03:00:00.000Z",
+        "fonte": "OUTRAS"
+      },
+      {
+        "endereco": "R  LEOPOLDINO DE OLIVEIRA",
+        "numero": 273,
+        "bairro": "MADUREIRA",
+        "cidade": "RIO DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21360060",
+        "latitude": "-22.8644180",
+        "longitude": "-43.3407960",
+        "classificacao": "A",
+        "data_informacao": "2023-12-31T03:00:00.000Z",
+        "fonte": "OUTRAS"
+      },
+      {
+        "endereco": "Avenida Avenida Ayrton Senna 270",
+        "numero": 270,
+        "complemento": "BL 13 AP 405",
+        "bairro": "Barra Da Tijuca",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": "22793909",
+        "latitude": "-23.0083150",
+        "longitude": "-43.3659640",
+        "classificacao": "A",
+        "data_informacao": "2023-12-31T03:00:00.000Z",
+        "fonte": "OUTRAS"
+      },
+      {
+        "endereco": "RUA IRIGUACU",
+        "numero": 0,
+        "bairro": "BANGU",
+        "cidade": "R DE JANEIRO",
+        "uf": "RJ",
+        "cep": "21862030",
+        "classificacao": "A",
+        "data_informacao": "2023-12-31T03:00:00.000Z",
+        "fonte": "OUTRAS"
+      }
+    ],
+    "telefones": [
+      {
+        "telefone": "(21) 995063518",
+        "ddd": "21",
+        "tel": "995063518",
+        "telfull": 21995063518,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "03/10/2025",
+        "fontes": [
+          "BASE RAIZ",
+          "CREDILINK",
+          "ANATELJAN26",
+          "ANT1024"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 995906340",
+        "ddd": "21",
+        "tel": "995906340",
+        "telfull": 21995906340,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "15/04/2025",
+        "fontes": [
+          "BASE RAIZ",
+          "CREDILINK",
+          "vivo.txt",
+          "ANATELJAN26"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 998951202",
+        "ddd": "21",
+        "tel": "998951202",
+        "telfull": 21998951202,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "22/01/2025",
+        "fontes": [
+          "BASE RAIZ",
+          "CREDILINK",
+          "vivo.txt",
+          "ANATELJAN26",
+          "ANT1024"
+        ],
+        "flag_whats_app": true
+      },
+      {
+        "telefone": "(21) 999156848",
+        "ddd": "21",
+        "tel": "999156848",
+        "telfull": 21999156848,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "17/01/2025",
+        "fontes": [
+          "BASE RAIZ",
+          "fx_d.txt",
+          "fx_d.txt",
+          "UnityVIVO.csv",
+          "vivo.txt",
+          "BR28M-VIVOFIXO.txt",
+          "BaseCompras",
+          "BaseCo",
+          "PIX",
+          "ANATELJAN26",
+          "ANT1024"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 988531167",
+        "ddd": "21",
+        "tel": "988531167",
+        "telfull": 21988531167,
+        "tipo": 3,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "01/02/2018",
+        "fontes": [
+          "BASE RAIZ",
+          "CREDILINK",
+          "pre032022.txt"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 988530668",
+        "ddd": "21",
+        "tel": "988530668",
+        "telfull": 21988530668,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ",
+          "CREDILINK",
+          "pre032022.txt"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 996183013",
+        "ddd": "21",
+        "tel": "996183013",
+        "telfull": 21996183013,
+        "tipo": 3,
+        "prioridade": 4,
+        "classificacao": "C2",
+        "data": "19/07/2017",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 998590024",
+        "ddd": "21",
+        "tel": "998590024",
+        "telfull": 21998590024,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "23/01/2016",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 994651077",
+        "ddd": "21",
+        "tel": "994651077",
+        "telfull": 21994651077,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "15/12/2009",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 971256153",
+        "ddd": "21",
+        "tel": "971256153",
+        "telfull": 21971256153,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 998853116",
+        "ddd": "21",
+        "tel": "998853116",
+        "telfull": 21998853116,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 998853066",
+        "ddd": "21",
+        "tel": "998853066",
+        "telfull": 21998853066,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 998331880",
+        "ddd": "21",
+        "tel": "998331880",
+        "telfull": 21998331880,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": true
+      },
+      {
+        "telefone": "(21) 996325183",
+        "ddd": "21",
+        "tel": "996325183",
+        "telfull": 21996325183,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 996069187",
+        "ddd": "21",
+        "tel": "996069187",
+        "telfull": 21996069187,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "Data Inválida",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 24975201",
+        "ddd": "21",
+        "tel": "24975201",
+        "telfull": 2124975201,
+        "tipo": 1,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "01/12/2025",
+        "fontes": [
+          "BASE RAIZ",
+          "UnityVIVO.csv",
+          "fixo_02_2020.txt",
+          "BR28M-VIVOFIXO.txt",
+          "BR43M-algar.txt",
+          "BaseCompras",
+          "SRS23",
+          "ANATELJAN26"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 98951202",
+        "ddd": "21",
+        "tel": "98951202",
+        "telfull": 2198951202,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "01/01/2024",
+        "fontes": [
+          "vivo.txt"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 99156848",
+        "ddd": "21",
+        "tel": "99156848",
+        "telfull": 2199156848,
+        "tipo": 0,
+        "prioridade": 1,
+        "classificacao": "A",
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ",
+          "vivo.txt"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 33595900",
+        "ddd": "21",
+        "tel": "33595900",
+        "telfull": 2133595900,
+        "prioridade": 3,
+        "classificacao": "C",
+        "data": "01/01/2020",
+        "fontes": [
+          "RFB"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 33902358",
+        "ddd": "21",
+        "tel": "33902358",
+        "telfull": 2133902358,
+        "tipo": 2,
+        "prioridade": 3,
+        "classificacao": "C2",
+        "data": "02/03/2015",
+        "fontes": [
+          "BASE RAIZ",
+          "SRS23"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 23313317",
+        "ddd": "21",
+        "tel": "23313317",
+        "telfull": 2123313317,
+        "tipo": 1,
+        "prioridade": 5,
+        "classificacao": "D",
+        "data": "12/08/2019",
+        "fontes": [
+          "BASE RAIZ",
+          "SRS23"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 33313317",
+        "ddd": "21",
+        "tel": "33313317",
+        "telfull": 2133313317,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "10/03/2020",
+        "fontes": [
+          "BASE RAIZ",
+          "SRS23"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 24336384",
+        "ddd": "21",
+        "tel": "24336384",
+        "telfull": 2124336384,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "19/11/2011",
+        "fontes": [
+          "BASE RAIZ",
+          "SRS23"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 98590024",
+        "ddd": "21",
+        "tel": "98590024",
+        "telfull": 2198590024,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 98331880",
+        "ddd": "21",
+        "tel": "98331880",
+        "telfull": 2198331880,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 96325183",
+        "ddd": "21",
+        "tel": "96325183",
+        "telfull": 2196325183,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 96183013",
+        "ddd": "21",
+        "tel": "96183013",
+        "telfull": 2196183013,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 94651077",
+        "ddd": "21",
+        "tel": "94651077",
+        "telfull": 2194651077,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 71443838",
+        "ddd": "21",
+        "tel": "71443838",
+        "telfull": 2171443838,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "01/01/2010",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      },
+      {
+        "telefone": "(21) 33360351",
+        "ddd": "21",
+        "tel": "33360351",
+        "telfull": 2133360351,
+        "tipo": 0,
+        "prioridade": 0,
+        "data": "05/03/2009",
+        "fontes": [
+          "BASE RAIZ"
+        ],
+        "flag_whats_app": false
+      }
+    ],
+    "emails": [
+      {
+        "email": "isabelajsampaio@hotmail.com",
+        "avaliacao": "OTIMO (ATUALIZADO)"
+      },
+      {
+        "email": "comercial@klonex.com.br",
+        "avaliacao": "BOM"
+      },
+      {
+        "email": "joao@klonex.com.br",
+        "avaliacao": "RUIM"
+      }
+    ],
+    "mov_online": [
+      {
+        "email": "isabelajsampaio@hotmail.com",
+        "fonte": "GOOGLE_MAPS",
+        "perfil": {
+          "nome": "isabela sampaio",
+          "avatar": "https://reidasfotosbr.com/v1/3a879b96b44e2cec94f85ece01f364bbb34b7fe291b31d4337b919499eafe6d4b29c7b1aa4cbf1b14c6bc80e8b2cf9a444dc995afc468147f4623478eecb48bfef5a64c09484aca9a295fa1e2cd7396ec58bf3e50478c37da8369c1975b77779e91bd545fbbf476c92d4f1d49d24141e3385c3525400643c3a8ffb327310eaf13ba9a87ed2d6c1b8d92ab4a2ed5fe543b21b3849a47500194337591680679b86617463513f16f6b99d438781113f127c5fb134270cd25e8e42930b7fac411dd45d2c185e6d4468708e2c23e038af36dac676088f1863a9bdb14a94485906269b9adcd6498f5c453cbbaf7df5475b1e005d6c85559e62a49200ddb97281dd732d6d297fcc85d17e202faf23bdd834ac8dad8eb3efdf66134de4aa41778a38bd8da6bf4886ee8ec8bd592dceb2d1553f420931f47bdd5e5c292d862c1c820e988f47949e61a87054b89869d2234234e669d477eccafb6ef515629c175e93812e95e3e94f3b6b6b39e6e8d11b6ffbd005b1b3c913a6558c3f89b4aaf378db8f0e31d96a1efabb000761fea2370e4902463dd4f02c5db5af0ee13d19d74bfa0ca0539779b46254d958e1c3b9897e393cc33b0116ad44783de7f51edfc36b91e13f3a",
+          "nivel": 2,
+          "nome_nivel": "Nível 2",
+          "pontos_total": 27
+        },
+        "contribuicoes": [
+          {
+            "tipo": "Avaliações",
+            "quantidade": 2
+          },
+          {
+            "tipo": "Classificações",
+            "quantidade": 1
+          },
+          {
+            "tipo": "Respostas",
+            "quantidade": 4
+          }
+        ],
+        "reviews": [
+          {
+            "local": "AÇO RIO",
+            "endereco": "R. Bulhões Marcial, 547 - Vigário Geral, Rio de Janeiro - RJ, 21241-366",
+            "link_maps": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x99795e53ae91ef:0x41c67cc88d70c469?authuser=0&hl=pt-BR&gl=br",
+            "nota": 5,
+            "foto_local": "https://reidasfotosbr.com/v1/6f00e5a92cee591dcf7759ae49d86be0a155d71968280d47dc6af6d1755f4a1380de04899cb0be03b534291fb36c6120803226c89a68583f5bbe9e68f6f121b4bed5f377d65a8d5f13251d0ac40aac4cdd44f10ad1e2a36719faefeadf4e0960f798cb5e114d3c70f8956e063e947c14f0c792873ca6e4721fbe9c6fdc2e8a595338fee69a6b955bdd6237d50e4fca72af64cd30b354cc183effb90436312e801e6edfa7f6c31cba6b597c993974619f0e424fdeabe35a2a5e2d421a3d88312ad0bbf37d4006cc34ba1398ce10987e11bd820db8553573f168d932e13341a7d3867b8e0dff2600f8aeec5ca45d1c3f5489bc2870357ae014a8beb6393600296859abe09f40952455439c347d8267eeabb205a0cd372056a96878bd83f1a45ddd5b277240f4b71b16c1862be79cce156c17bedb97111139daf233706f15c6023325d805a9ba806f99f1416767043c033f1593d3f0c617ccc3e025cb85d721ea5f77346a498929583fb0718e374d6c4fdc96d7946e4641d3b1fbd2c707b4a4b99e8688409b7dac8d21872acc61bd5534ce677559db52aa00f95e919d99994259dcd773122238b391981dd89c5aae86d06bf2d956d5a2d22c6dad89b4a2506b3fd3"
+          },
+          {
+            "local": "Éclair!",
+            "endereco": "Nível Lagoa Barra Shopping - Av. das Américas, 4666 - Loja 141B/C - Barra da Tijuca, Rio de Janeiro - RJ, 22640-902",
+            "link_maps": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x9bdb0d151cfe05:0x1a5e14e2c0b25573?authuser=0&hl=pt-BR&gl=br",
+            "nota": 5,
+            "texto": "Maravilhoso!!!",
+            "foto_local": "https://reidasfotosbr.com/v1/8c7a3f8ee6aeba67e8ad1a655e5ab9a2a802fa3fee70da5975074c09aa61597ba721d646d3eb96a91165b54e6f1c6621e19cc8c58ca58e2638b47790fb4e059a1b1586b9c9b029ab6b042bd794c4a4487f4dd6fcc5e0a21a875cd23c7a2b5334f78eaf7716e0a56eac914ad956240d94034a4f283a402cc572c41adc2efebbbd913fc4acb0dc4be14320469c9b298d357c50225846795566f8978811f7924373fc85967e103f9279289feedc5d10ae1cae0acd9a85e4919bd6f4f8a4d6467a9c7e2436229ff387ebef70a9524dc5ed4942ec4d41f25ceb34f08c55c1fb8082ce9473a157a1b4d79048094aab0d22085d7075d897a25a590abb820853eec8df34fcc64c3f84aa79aed0df321394b06331ed67389c2cc176a95bb67a0bf5980c20447481d5232b2a8fdce0ee8b9b3d3346da69f0e625c14044f4afbc28f6bc05a710e330b186cca805a4f37662f37e56af55f3f787207a55c77ef426c5cfc1802e6159137ecbbf5507cdacf89d5eaf3b6114ec8407197f5a54ebaf0cf1e2874618a569d504b62974b4e87772422b93c80357b8ea73acab3eb6d35a0f450eb70ffb40edb196db9e579bf5ac5eac22de64361c7519ba93c70d055afe873b0293d3cf"
+          },
+          {
+            "local": "Widmen Botafogo - Troca de Pneus e Oficina",
+            "endereco": "Rua da Passagem, 127 - Botafogo, Rio de Janeiro - RJ, 22290-030",
+            "link_maps": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x997ffa42610e83:0xbe64366e583cd9a6?authuser=0&hl=pt-BR&gl=br",
+            "nota": 5,
+            "texto": "Adorei o atendimento!",
+            "resposta_proprietario": "Agradecemos seu feedback, Isabela!",
+            "foto_local": "https://reidasfotosbr.com/v1/5659b095cf5c6441ad285659009a1f0b4ae62d5c6b7f068bb7bf4b3b9e75922c6faae3db19bf615e730fb01005201311fba98c3d9ebfbfcebbd24940b2b7e11292b1dada39b62df720f0105c90b134b1899b80ae8fd37cf781eda7544593edffed86a21e5e0590a0e7aeacd18e1a375c69f0cfc06296a33b690051078dfb87682be6231bd23fe102d14d5d737a47685af578550c0447b5ea8da07868f49198ca86027181f2232d05623b7832dd6a5dd508494f6732dcf82ebde93eb6ac5c47a26295cfff82756040a7eb5b0ccc7534fa15f28b4384f3744ed03f06ce8b96dfac8372ac09aa7af1f628bfb79ba675546a251f730bacb29c7857c5e9907b697ced5b4555f93d359830c04f621b707213a286c9f7555c1ee9429cdd9a1cdb0c1ea5c6e5c83c348424fa154386efcc0a17787d020aabc730993d36d0190f1c3e55c952c029690b869fa56878377668ca31d6a81f2dabba8eb703c719d58195868b0fc866a86d70977bc81cc23a2a6d11ac20c7373fdee9f58840fbbe600dfd1f2c77dee8aa6ce930800e898401f4241207064a88ebac2949ecc94e4dbc67fa35d5644cdc780c01bcff1534b15f84883a2b04345e93ed00640cf51f6cf36fb3deca31"
+          }
+        ]
+      },
+      {
+        "email": "joao@klonex.com.br",
+        "fonte": "GOOGLE_MAPS",
+        "perfil": {
+          "nivel": 0,
+          "nome_nivel": "Nível 0",
+          "pontos_total": 0
+        }
+      }
+    ],
+    "bancos": [
+      {
+        "cod_banco": 304,
+        "agencia": 6140,
+        "conta": "275279",
+        "banco": "ITAU UNIBANCO S.A."
+      }
+    ],
+    "planos": [
+      {
+        "empresa": "Vivo",
+        "plano": "Linha/Banda Larga/TV",
+        "data_produto": "11/11/2019",
+        "endereco": "Rua Dos Jacarandás Da Península",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "cep": 22776050,
+        "numero": "1160",
+        "complemento": "BL - Blocos: 4; AP - Apartamento: 1001;",
+        "status_produto": "Ativo"
+      }
+    ],
+    "planos_cel": [
+      {
+        "telefone": 21995906340,
+        "operadora": "VIVO",
+        "plano": "PF_POS_PURO",
+        "data": "Invalid Date"
+      },
+      {
+        "telefone": 21998951202,
+        "operadora": "VIVO",
+        "plano": "PF_POS_PURO",
+        "data": "Invalid Date"
+      },
+      {
+        "telefone": 21999156848,
+        "operadora": "VIVO",
+        "plano": "PF_POS_PURO",
+        "data": "Invalid Date"
+      }
+    ],
+    "profissoes": [
+      {
+        "cbo": 141405,
+        "descricao": "COMERCIANTE ATACADISTA"
+      }
+    ],
+    "parentes": [
+      {
+        "cpf_parente": "00900618701",
+        "nome": "Marlene Jorge Sampaio",
+        "grau": "Mae",
+        "sexo": "F",
+        "data_nasc": "15/09/1941",
+        "idade": 84,
+        "renda": "R$ 1.621,00",
+        "flag": [
+          "OBITO"
+        ],
+        "data_obito": "07/11/2009",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      {
+        "nome": "Catarina Minaier",
+        "grau": "Avo Materno"
+      },
+      {
+        "cpf_parente": "18289560745",
+        "nome": "Isadora Sampaio Pauer",
+        "grau": "Filho",
+        "sexo": "F",
+        "data_nasc": "12/02/2004",
+        "idade": 22,
+        "renda": "R$ 1.621,00",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ"
+      },
+      {
+        "cpf_parente": "85290599720",
+        "nome": "Walter Jorge Sampaio",
+        "grau": "Irmao",
+        "sexo": "M",
+        "data_nasc": "29/05/1965",
+        "idade": 61,
+        "renda": "R$ 1.621,00",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "profissao": "Administrador"
+      }
+    ],
+    "placas": [
+      {
+        "placa": "KXB5376",
+        "renavam": 484113372,
+        "chassi": "KMHJU81DBCU456045",
+        "modelo": "I/HYUNDAI IX35 2.0",
+        "ano_fab": 2011,
+        "ano_modelo": 2012,
+        "combustivel": "ALCOOL / GASOLINA",
+        "tipo": "CAMIONETA",
+        "especie": "MISTO",
+        "fotos_carro": [
+          "https://reidasfotosbr.com/v1/3651d74ad4f99a1d6b29e69b287d2e98a742d832bef32b05231699df22c7daa3cd7d7357ea3030274e6aae4bb12ce5931cebb28e7c719257fb1e77454a521543ec6314446cc7c16c439fea1e661e3d0ccec0f2b565cbc3390eaa75c92974fc1e9bb8a9378dbac284160ba27173175435cdd7f1c4f8f19e0a3476b41b704b7bd0a659423ecd38534dc23cc9e0f4eeb1f558a1bc00a560ddeb2d29748babea2140d253f4aaa06c74cc6fb3647dc4c9f87335eccb1c86f8384b1fbcfd2edd1c79f116e7eb223e1e00505ab5fa848d2c9d56a41aee413e83cb4575d3b31455d5a432133b6817b0f68dfffe4eae4d8e1a4d11099459a39f6672d6ab01622ad99a55da43554a514000ebaf21b7dc6dbeb3fef05092f7be1798dca8128021d69997ec97b573185a9a3964ddc9efe0fdba9b10bb5d37f29545a1ffbcf918e0296457b6d19f9243de21d7d790ee3a554e5ef8ea4e64ea506c31dc79fc884e8a2082cc8b3d543b40d6b26b4ae23b23a0714a5fb5cb55de43a4b7e4b195be9623e22f8d055b2b7445c826bf4143ac2ba940bb7f30e527f6dcb0b5e22302cd5fcb3d638e507c0d437e36ce065b8bcdf0cbf50f9fe5507a986d580dedae8544b76b2b5df87748",
+          "https://reidasfotosbr.com/v1/fbfd07afd6eb6b5322823bee287a8612f3e16d57120994fa0b46a47b10cf5a83c115691a755db63f5472a5f470286cf34c181889ad94be3de7a2b0ae28537a335c594bfa08a33d6d8561b1a2cdaf76bc41cf9761388a3cce09a0b2a5cf83ada4216b09d49d8a189a9fd1f5f5e335a5c1fb150ffb3541624c46df605305f11ac02d08908126de5030ef9cc5df7013b79073f194aee0ccf1b575c0bd3f9a7ef852f23368bb810e38663634c92799b297e9958a71a65e938d26940ec554eafe7bb47e1a28a80d8c0083a72c07eca128184dc6ff00deeeed0add91eeff7b02be60d24efead8053b465644dfef5ae6a2660b1b887e19dc11165b4537567cf7200ba74576eb23c869617dba26fb973bf9e840c222f800f80253fee52391a98deda47f388fb255d5c4192c78f83c30e8adabf042835c9a180b43f5386d3309c53e4712c5449b1c4f72289fcd4ea9a39d71013612a47e547a6e262e8185469e1cbf756a4e2b32e8e3327365fb572bc08bce93735ac1166b8b9dab39e4ad594cc8b37ea25204ab1fac9d2ac641c1a489376ac84f02bbb736f389efed2f8a32a4c584bb9282807d06c566026f6cf2d1c8ef816c709c0f9caac42f3261bc4ad6c7cc8b936b0",
+          "https://reidasfotosbr.com/v1/a9cd70fdadf6cafc2c8a3a2f61037ebb01468c2b20b81642f56bdb001dc43f7a65f5b3b11e88317bb584a769e0655ee8fb4a9ab293d2a2e0c6018c7781c9386be145e1dfed0d880e347c624f1aea743e02afdacc6ff4bf827c7de105df5d20947b95480bfaf73ab9883c17e5829237beb6c48cae5298e913b7f897606dd259466871b11aeeb114835ccccab112afa35c36ea10d1a16817bf462a6875d5143babb34e0467004d4c193e2061324dfa11733f82eed5b559b01c974586ea59ab35cb66293cba632f7874af8ba5011593921b97cf34b50c010b1924c7c29e23b52d3d7eead53455727d0f947a484330a45084defcac67f12b6ceb66aa4fbd1c9004daa747bf9ce069a94fa29711f14e949f242eb2a43dc991085116cb71a3f3eaa02641310480ce6470c21aaee96ec6fe9c47834c3fe4596cdebd08285b6a3153b3ba26b7465bbdfa2d6ddaaebcc53b1ebe1f324f540f30fcd7005460dd893ad7f73147b7103405752351f79912521ed70114c552a327f41fc81f54e0c62d39e5d98fcc530c4f03b9df396b6ad8717682d09944ba19aa7e315c1cc0954956e8dadd208818a38d7f5c013adeee1c1efeefcc2c99df99bdf3f22bd0de199c31b6269e0b",
+          "https://reidasfotosbr.com/v1/183e23a9b28c9aac17efb2add3ff9373f5c7028f44cc9b0d5e31a05999870e2d5c34a3f65bd6fe7bd2a725342e4f01becb1fb76b1f94193772b655a1aeda951f55bd508bebb43d151ab3ec4160f23e94a46f00e23fb98194bd1c39370a21b4a93488128d21ee84f97323e3045d7d94ee47fe9837698dca238dd142c3f16ab99edb32464182ef2bc705c6a262df543588627bdb22562f3b50537ed17be320ad65bfb4b3cc159c7f5484d2f71d218694a992d7c32c7b368d2ee87b7a11687b07bfe7322f6d29b7fe0abb3bdbf1432c0c5f1a60a457c81dfbe22b07b6672f8ac271abca1b88d476a473b065003f09b87cdfdeca40595094a9c326d0b56c08cfda7e971b13c90dcf3b9a6bce387ac397e1a16782d94bd6c5b0830345349b65817e5b4c74bba1e61674a95a62a4567e3b4e85359f5134f14bb5667d00818a0442f899959d8d8eeefb93848eb1bd2faaa59236de3c0515f5d884dc734455dce9ec9527e77ad4fe26a7576d538fa4bb4b78f031a01801f0477ed3a131efb058faf3a303f6b5ec382f6024258de62ff2c1a07ceaec505a1598e3f8840bccb3317bb4f673d0b5b23df94cf9d8ab9bf865cf081a7d0dd6820967852f9301893551a119268f",
+          "https://reidasfotosbr.com/v1/528966c35aaecc5d315b802be250f454278f6c79983a3e9e635c0f6d60132732b2fed635fd499c0126ea1772c1cfe28781affa0217cf9c978f068729ae1267f4bdba03fdad4ccbb532df8c554d94fba42034214d92097438610bf12df72c939eecca7afa6e2566bba916a9ad753d86ef1ee3cebe3ad7fe7600b033586fc15b0c5dc4613a50e3aff8230889cab1ffd74a44136c0fa31b0c11c6ea1a5b19e47e883993cee229db65ebb1799f0d9d9b602c45dd2f198aed94deec888c3f5835af23872b0ed645380a05dde575a92e9731841bf3e9ef6ed51351c68633e51a6b6c2600a5703e74b8b8e0509d81162f0ec15d03bb3c84bd4ec7a082c68ed39988478f751454c4638f5ba7045a583a05d0b1e40503cf16dac561b7dbcc362faae0aad2adda7e857d81a3c85e42164510e50da5de56b6e088aced6ca3f073ec8c9d976b4e2886001e65544d9b8260269933a0e7b6ed371f21f804ca36b2a56a4168d1334d437f0c8642d65c63c3c051aab8c8a48d2e45e3279111c88c5641c367477c02751cbe928402d7080e18fe900416af35d79fd1474b188f11ded55588e796742c9f98d66ff649a6e332c934dc12f7eb3c31eb6f119d353ad8a49c2399c0aae6dc"
+        ]
+      },
+      {
+        "placa": "RIO1G32",
+        "renavam": 1165269845,
+        "chassi": "98867512WJKH92853",
+        "modelo": "JEEP/COMPASS LONGITUDE F",
+        "ano_fab": 2018,
+        "ano_modelo": 2018,
+        "combustivel": "ALCOOL / GASOLINA",
+        "tipo": "CAMIONETA",
+        "especie": "MISTO",
+        "fotos_carro": [
+          "https://reidasfotosbr.com/v1/8213e62fd6d3700d186655208325ac2464c408cf471acecfe4103777ac9421d4c4aef6baf255b5641a4d51862a0eb693472d7877cb5d1748ee38d5063ce16a9e4faf716f4c7537564ce07a4ee4637e29485c980bff3c06efce751eaeeb58327f21e43e7ff25914628d79992098838a2d6f98564d221222f4a4daeec5bbd98078cf7340632ad19218a09656b8b380ea2bd7bcd1f5185c5143687a884a427ea3e5a514eb155e06baa2112df3db425f7739f52206240cc98b204be08e8608f9eef6e0e0dbb666cbc5ca561a5e5da7bf0a38674f580b0b8e334bb8e9b49fd4fb995a12a140940a61c6d8fa5dfa30e32adcf515f586b2871300575c41909be5f6547346e3dfc1047392f8adc406c8b2049f131ada83c15800223ecfbfda3310446c73a4767332029487821f52ccda86fa14afd45bc5bbb0d8f44561576315dbe1c76326f5b10079a31c050e586c9e354b904f2a2d327ab1ea0a5a6487b5b8b8b1f16a490fd9b3cc70a4339adbf2198b888721d52d45876c045d9ad592e769956f9fc8b67d85c1badef77b8b535a1e0d24d28e8a460a124c07bc813c263b6c0a329d626f9628a488c2834d89a9b70dc5742b1fe8f83f17094444e4f6a9f243fca111c7",
+          "https://reidasfotosbr.com/v1/12fa712c7c1d452e34ea487a542fac78a227bde4f5bbf87bfc9f7fae22315d4d7899f68776135576b1266c574a3fd812f7b8149e3d21fc32b8fcfee4bd1e3e8cb121c18280c8b861c1f904b1784b379c0de7c8dd4cfe77d0e97ba9e92dc39847f415b34adbd894c7b2f6d4bb2f569d3e2da7d85b2e78942298347155f7e2d4679d8df81d00b9d4f5614d157c0eff00ac9809bc8ad1dee7bba347b73ca8f500ea3a55619b75e7d70a84bba16e7758331bc7222be35c97eaee2c3792b3f32863a592f2d20b9132694373a4f6d751a39a28c1d6db32ec7f399abb5ec0c4c4cdfbdb53c070dcb4e2ee73b337d50bf5f6695cbe1c54b0ef053c216bd006887fbb31fea7a7109d3c935aa2201673223c23062f2b87174c8b2e95ad54d34cc5c3b3b22cdb5887324cff07a3341af0576869a56bc3c27125d58fd47ac6f43dbe19f7d84f9caa5cd80751ced17d1d7fe2c5cb84f4d8cabfa8df3d2b1a101cb46ef5802284c2dc81853e52ac40d3d3995f8ed2cc66de7a5dc5640021229fb30e3f1e1b70b79d9184b030231eb592ca094f936780266ee5629cfbf606866e15e3478bfe118955014a25086d55fb092f28159280d0d9eced67e29c028ad5918148a86b5675ad",
+          "https://reidasfotosbr.com/v1/ac61832c9060c88544cf99a173e27393328e785bf45a4531e7ceb375636ca0c283cc6eaa8cf3886694a89af1cf6a0c723e2123b98cc03cee03dbcb4b1890323ad35e2e49b82abc2f900d5053c25031d69cafe307b000ed89c07e9b7fbbb3f004ff8b53d8e5be75bfd7b69b7d55aa559a976281d4596f662dde11d195870d7edd92817a39d2c04e69637d0ee4697d71154ec98e5c6c016685b10865db1942a399b50ea088a9e6b2afcc785a9dd920b97c7639d6a01376bde0f9b7a10eef8e74bcd5b4b451114dee02367314c2a7ba222369a652d9500de39a805b81288cba9d9f11c6bc41872de9a5bed8c03b6b6599c27206186e4eeb15d5f5f965507fdb8d8bf2d909fe5fabba8fca28099b13b8ac63a039864734fd447757134827619bf58e4c24ea43627393e96bcd6a7d3787f3db7186da6b9fb226c62e1774055167556e867e9645f5464f639c6a26bc06eddf4667e59e7fcbeb758b8935906bea3a8173262816f33d026e5969e7575f6efcbcb6eadd6109f69a18d95959a6bc980f1da90a76e372abe61d7a7ffb2a8ceaf190770afe8d00b3198dee2bf2ba65dad5c420f934be447da7b9f997db3a9f5b3fb32d4ae3465fcb4b206446e8e56b98fb84d4",
+          "https://reidasfotosbr.com/v1/73ba9219bf3234fcbacd2253d3f7dafea3403ed7c9e9490c0ba56684b7cd8c3dc710de5c0da9368d7ffe01667f5f0596dac9afcf19e0a657a0220666e90898b50050b24f349d1593b75f66fa718ff30e37f861430f305eb8f9ba7739a31b5eea4f24a10df76bd0ef979dea33bc335bdec9ab8f7cd91bae8167dedb7b8a902a4f3b60a8cf6b0d37a1402a455f91ff868738a99c06a58e229697c22950e765954383142f02d82be2be31ac2441fb40ee0037649ddbf97442ddc5607b2ac7fd4eab95b5f20c27003e9f44b1217d7149511913082b83d3de9f939d6ced70d3c732d4bc12b566f377c66e7b15d129fdcae435b76e24b200587c680d92e21c24c45614d7390a52cbf7b64f851befc7b886dc471d46a161987e7b68488a1cc6a1e879036f49ed708e498c1e0f41eb983dc3f77017c3adacb6aaf583da63a31f661ed4f0376827038a2269260064d338912d0c00a4d42bd4ffd9f8efa5957156a76ff903a5d913479d6aa16c03343023ede62c0ad274f2a62bab5c3e97f78543a30a3e222b7b384aa9bb9ccca7f207aeeea92a46a6b80d9c96c5e4e555161890fd6f8915336ab8966ed5aa9777e11bd438018188ec1ca2207608913f5a1fe1b3af58f598",
+          "https://reidasfotosbr.com/v1/969a03499ff8e84bc532a8c744a9918cecc5e2fbe0a1d893725cc280470c7f1bffdaac3259fe484ca0443736b18de42115be938943d454d5d1edac0232ebb03d48cd52c9e5a1620446022eb4c0ead32925f07aebc81d97eaba51e6ae869600bd2a6c952e8abbe1818b65709da7c01e6ea2775706151baf489aadb05860d38510282c4c0612699b6bda271f5a4b675a3f6a63450f999b1508d1c5617db507a9ccb4aebffaae4c595fdc15398ad222f32ec20a712f58cc8920ca94d7e32b1dfd8b3f8045845e787b0feda51f973f5326a053e971921a7dfc39af5ea90867a435607cb301851d78e139ab491960a8f256d8e6bcd46ab60a4b7b580c70abef925779d2fa4ca5f6b45dcb1ec3aed876fd77291b5b945f2c0ad73e35dfee913c2cf66a135a250aed0a04335197a9dee2bb53e9c72e4ffafe511a8c2d4e2ab23e5b46f95f86c5d5aad4851a2a222185688efc46421ed815e17801ef1177805778ca3a2590e945ced538067c1685677c01785767f9d76f4ec8dd8fd8c71b3bdda1faad4d47924905cd25446285375de2914843e03b1880d7c60e3c1cedb8e2e586d619150079532072df2cfa4fcd78b6894361a710f382e5c84b07917c890dc36e48bcf1"
+        ]
+      }
+    ],
+    "sociedades": [
+      {
+        "cnpj_base": "47034435",
+        "cnpj": "47034435000110",
+        "razao_social": "WS  COMERCIO DE DESCARTAVEIS LTDA",
+        "situacao_cadastral": "ATIVA",
+        "tipo_socio": 2,
+        "nome_socio": "ISABELA JORGE SAMPAIO",
+        "documento_socio": "01239209738",
+        "qualificacao_socio": 49,
+        "qualificacao_socio_descricao": "Sócio-Administrador",
+        "dt_entrada": "05/07/2022",
+        "representante_cpf": "000000",
+        "representante_qualificacao": 0,
+        "faixa_etaria": 6
+      }
+    ],
+    "contatos": [
+      {
+        "cnpj": "47034435000110",
+        "razao_social": "WS  COMERCIO DE DESCARTAVEIS LTDA",
+        "endereco": {
+          "logradouro": "BELILA",
+          "numero": "00021",
+          "bairro": "BANGU",
+          "cep": "21840420",
+          "cidade": "RIO DE JANEIRO",
+          "uf": "RJ"
+        },
+        "telefones": [
+          "(21) 27675929"
+        ],
+        "email": "CONTABILIDADEMICHO@BOL.COM.BR"
+      }
+    ],
+    "compras": [
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "2124975201",
+        "product": "Aplique para decoração de caixas, etc",
+        "quantity": 50,
+        "price": "1.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "21999156848",
+        "product": "Romero Brito - Kit 6 Quadros - Salas, Quartos, Escritório.",
+        "quantity": 1,
+        "price": "139.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "21999156848",
+        "product": "Adesivos de Azulejo Romero 15x15",
+        "quantity": 2,
+        "price": "27.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "21999156848",
+        "product": "Rótulo Adesivado Redondo 6x6",
+        "quantity": 50,
+        "price": "0.70",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Rótulo Adesivado Redondo 6x6",
+        "quantity": 40,
+        "price": "0.70",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Caixinha para pão de mel dourada",
+        "quantity": 20,
+        "price": "1.89",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Lembrancinha Para Plantar - Masha e o Urso",
+        "quantity": 15,
+        "price": "6.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Cabide debutante",
+        "quantity": 1,
+        "price": "165.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Robe Debutante",
+        "quantity": 2,
+        "price": "87.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Vale conforto",
+        "quantity": 160,
+        "price": "0.55",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Monograma de parede em MDF cru 6mm 65 x 65 cm",
+        "quantity": 1,
+        "price": "60.00",
+        "created_at": "2016-10-06T15:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Porta guardanapos em acrílico prateado",
+        "quantity": 200,
+        "price": "3.20",
+        "created_at": "2016-10-06T15:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Estojo de pintura 48 peças",
+        "quantity": 20,
+        "price": "18.19",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Digital - Etiqueta Álcool Gel Circo",
+        "quantity": 1,
+        "price": "17.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Convite Digital Circo para Whatsapp",
+        "quantity": 1,
+        "price": "12.90",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Fone Circo",
+        "quantity": 20,
+        "price": "20.30",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Convite Individual Circo",
+        "quantity": 100,
+        "price": "0.39",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Convite Ingresso Circo Vintage",
+        "quantity": 50,
+        "price": "1.79",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "TAG Circo",
+        "quantity": 56,
+        "price": "0.39",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Digital - Tag Lembrancinha Circo",
+        "quantity": 1,
+        "price": "17.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela Jorge sampaio",
+        "telephone": "552124975201",
+        "product": "1 ingresso(s) Ingresso ùnico (R$38.39),  Evento: 39o Diabetes Weekend - A Colônia para quem tem Diabetes #1226494# (via Sympla)",
+        "quantity": 1,
+        "price": "38.39",
+        "created_at": "2021-06-09T23:30:27.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Almofadinha Mini Almofada para Relógio Joia - 20 unidades",
+        "quantity": 1,
+        "price": "56.00",
+        "created_at": "2016-10-06T15:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Almofada colchonete acquablock impermeável capa com fecho",
+        "quantity": 1,
+        "price": "182.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Saia para Árvore de Natal Mickey e Minnie Disney",
+        "quantity": 1,
+        "price": "160.00",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Mascara Estilo Cirurgica de Pano C/ Espaço Para Filtro",
+        "quantity": 2,
+        "price": "13.50",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Mascara Cirurgica Tecido Dupla C/ Espaço Para Filtro",
+        "quantity": 2,
+        "price": "13.50",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Mascara Cirurgica em Tricoline Estampada Infantil e Adulto",
+        "quantity": 2,
+        "price": "13.50",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Mascara Cirurgica em Tricoline Estampada Infantil e Adulto",
+        "quantity": 1,
+        "price": "13.50",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Mascara Masculina Estilo Cirurgica de Tricoline",
+        "quantity": 2,
+        "price": "13.50",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "MASCARA DE PROTEÇÃO EM TECIDO DOGUINHO 2",
+        "quantity": 1,
+        "price": "6.99",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "MASCARA DE PROTEÇÃO EM TECIDO MICKEY I",
+        "quantity": 1,
+        "price": "6.99",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "MASCARA DE PROTEÇÃO EM TECIDO FLAMINGO",
+        "quantity": 1,
+        "price": "6.99",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "MASCARA DE PROTEÇÃO EM TECIDO GATINHO 3",
+        "quantity": 1,
+        "price": "6.99",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "MASCARA DE PROTEÇÃO EM TECIDO SNOOPY 1",
+        "quantity": 1,
+        "price": "6.99",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Caixote com Pintinhos",
+        "quantity": 1,
+        "price": "59.89",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      },
+      {
+        "identity": 1239209738,
+        "email": "isabelajsampaio@hotmail.com",
+        "name": "Isabela sampaio",
+        "telephone": "5521999156848",
+        "product": "Kit festa Fazendinha",
+        "quantity": 1,
+        "price": "84.90",
+        "created_at": "2016-10-06T16:28:18.000Z"
+      }
+    ],
+    "propensoes": {
+      "cpf": 1239209738,
+      "csb8": 466,
+      "csb8_faixa": "MEDIO",
+      "turismo": 1,
+      "luxo": 1,
+      "tvcabo": 0,
+      "bandalarga": 0,
+      "credimob": 1,
+      "comprainternet": 0,
+      "consignado": 0,
+      "clipremium": 1,
+      "mobile": 1,
+      "segauto": 1,
+      "finanauto": 1,
+      "credpessoal": 1,
+      "investidor": 1,
+      "tomador": 1,
+      "prevprivada": 1,
+      "internetbanking": 1,
+      "cartaocredito": 1,
+      "cartaoprime": 0,
+      "varioscartoes": 1,
+      "segsaude": 1,
+      "segvida": 1,
+      "segcasa": 1,
+      "celpos": 1,
+      "celpre": 0,
+      "highuser": 0,
+      "milhas": 1,
+      "cinefilo": 1,
+      "casapropria": 1,
+      "transportepublico": 1,
+      "jogaonline": 1,
+      "videogame": 0,
+      "leitordigital": 1,
+      "cacadesconto": 1,
+      "adiantado": 1,
+      "fitness": 1
+    },
+    "vacinas": [
+      {
+        "cpf": 1239209738,
+        "vacina_nome": "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD",
+        "vacina_fabricante": "ASTRAZENECA/FIOCRUZ",
+        "vacina_nome_aplicador": "CAROLINA NASCIMENTO PEREIRA",
+        "vacina_dose": "1ª Dose",
+        "vacina_lote": "213VCD017W",
+        "vacina_dt_aplicacao": "2021-04-16T03:00:00.000Z",
+        "vacina_grupo": "Outros",
+        "estab_nome_fantasia": "SMS CF MAICON SIQUEIRA AP 40",
+        "estab_razao": "SMS RIO CF MAICON SIQUEIRA AP 40",
+        "estab_uf": "RJ",
+        "estab_municipio": "RIO DE JANEIRO"
+      },
+      {
+        "cpf": 1239209738,
+        "vacina_nome": "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD",
+        "vacina_fabricante": "ASTRAZENECA/FIOCRUZ",
+        "vacina_nome_aplicador": "CAROLINA NASCIMENTO PEREIRA",
+        "vacina_dose": "2ª Dose",
+        "vacina_lote": "215VCD012VA",
+        "vacina_dt_aplicacao": "2021-07-09T03:00:00.000Z",
+        "vacina_grupo": "Outros",
+        "estab_nome_fantasia": "SMS CF MAICON SIQUEIRA AP 40",
+        "estab_razao": "SMS RIO CF MAICON SIQUEIRA AP 40",
+        "estab_uf": "RJ",
+        "estab_municipio": "RIO DE JANEIRO"
+      },
+      {
+        "cpf": 1239209738,
+        "vacina_nome": "COVID-19 PFIZER - COMIRNATY",
+        "vacina_fabricante": "PFIZER",
+        "vacina_nome_aplicador": "ANDREANE CARNEIRO FERREIRA",
+        "vacina_dose": "Reforço",
+        "vacina_lote": "FF2592",
+        "vacina_dt_aplicacao": "2021-12-10T03:00:00.000Z",
+        "vacina_grupo": "Outros",
+        "estab_nome_fantasia": "SMS CF JOSE DE SOUZA HERDY AP 40",
+        "estab_razao": "SMS RIO CF JOSE DE SOUZA HERDY AP 40",
+        "estab_uf": "RJ",
+        "estab_municipio": "RIO DE JANEIRO"
+      },
+      {
+        "cpf": 1239209738,
+        "vacina_nome": "COVID-19 PFIZER - COMIRNATY",
+        "vacina_fabricante": "PFIZER",
+        "vacina_dose": "2º Reforço",
+        "vacina_lote": "FP7498",
+        "vacina_dt_aplicacao": "2022-07-11T03:00:00.000Z",
+        "vacina_grupo": "Outros",
+        "estab_nome_fantasia": "SMS CF JOSE DE SOUZA HERDY AP 40",
+        "estab_razao": "SMS RIO CF JOSE DE SOUZA HERDY AP 40",
+        "estab_uf": "RJ",
+        "estab_municipio": "RIO DE JANEIRO"
+      }
+    ],
+    "irpf": [
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2020,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR.",
+        "id": 1
+      },
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2019,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR.",
+        "id": 1
+      },
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2018,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR.",
+        "id": 1
+      },
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2017,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR",
+        "id": 1
+      },
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2016,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR",
+        "id": 1
+      },
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2015,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR",
+        "id": 1
+      },
+      {
+        "cpf": 1239209738,
+        "banco_id": 1,
+        "lote": 0,
+        "ano": 2014,
+        "situacao": "SALDO INEXISTENTE DE IMPOSTO A PAGAR OU A RESTITUIR ",
+        "id": 1
+      }
+    ],
+    "cnh": {
+      "cpf": 1239209738,
+      "nome": "ISABELA JORGE SAMPAIO",
+      "registro": "00004338249",
+      "data_nascimento": "1971-02-26T03:00:00.000Z",
+      "mae": "MARLENE JORGE SAMPAIO",
+      "endereco": "R JACARANDAS DA PENINSULA",
+      "numero_endereco": 1160,
+      "municipio_endereco": "RIO DE JANEIRO",
+      "uf_endereco": "RJ",
+      "cep": "22776050",
+      "complemento_endereco": "BL 4 AP 1001 GR 2",
+      "numero_documento": "91861237",
+      "data_primeira_cnh": "1989-09-14T03:00:00.000Z",
+      "uf_cnh": "RJ",
+      "permissionario": 0
+    },
+    "rgs": [
+      {
+        "cpf": 1239209738,
+        "rg": "91861237"
+      }
+    ],
+    "linha_do_tempo": [
+      {
+        "data": "1941-09-15",
+        "movimento": "NASCIMENTO_PARENTE",
+        "categoria": "FAMILIA",
+        "descricao": "Nascimento de <b>Marlene Jorge Sampaio</b> — <b>Mae</b>",
+        "metadata": [
+          {
+            "descricao": "Nome",
+            "chave": "nome",
+            "valor": "Marlene Jorge Sampaio"
+          },
+          {
+            "descricao": "CPF",
+            "chave": "cpf",
+            "valor": "00900618701"
+          },
+          {
+            "descricao": "Grau de parentesco",
+            "chave": "grau",
+            "valor": "Mae"
+          }
+        ]
+      },
+      {
+        "data": "1965-05-29",
+        "movimento": "NASCIMENTO_PARENTE",
+        "categoria": "FAMILIA",
+        "descricao": "Nascimento de <b>Walter Jorge Sampaio</b> — <b>Irmao</b>",
+        "metadata": [
+          {
+            "descricao": "Nome",
+            "chave": "nome",
+            "valor": "Walter Jorge Sampaio"
+          },
+          {
+            "descricao": "CPF",
+            "chave": "cpf",
+            "valor": "85290599720"
+          },
+          {
+            "descricao": "Grau de parentesco",
+            "chave": "grau",
+            "valor": "Irmao"
+          }
+        ]
+      },
+      {
+        "data": "1971-02-26",
+        "movimento": "NASCIMENTO",
+        "categoria": "PESSOAL",
+        "descricao": "Nascimento de <b>Isabela</b>",
+        "idade": 0,
+        "foto": "https://reidasfotosbr.com/v1/f1ec5bb46e37430069f9a6a1865373e2d988694b94ede7c1be9f8c7ef0c502aa5cbf203cfa3587131187ea97749f7a5cb11431cfdc5e0047428aaa63305d27d20f056ab7ce001c6065aff51b1c9dc5f82c23730957df0c591c01a867548fe01f643fb9789a6bdcdeab3dfead90045b924e71c2392f22419cdf571c2172ecc4d0cb0f2faf4c326b800bdf1595fb729b96243b10935dd27474411781b673649151773179389057c806da6eeab8d7796fb56a5ad7618c7ef624664c14631848ceeb767c74e0b3774f6e3ee52b5d0ca742e6db0e0bad39231a15ff4bc8e35225d3293d4b1aafe9539daf3cabfb089cbe78a590c58853d75b1fc8bf250a90fa2d00281f57ff159a1763443a6955777686f905d705b34f4690c0e963907cf594a874ab8bee0925dae006160f1a61194029b9e0a08c491d90e8556e26b514924987b9dc8e88d06d9ea9ec1f6f8ba4ad80037e223dfdb38d6ccfab31e0bca42af1ab9c47256de37d500285df56dd14f596970ea5e9f49ea706fd911ffd92c9667f98cdadf079f3cd7b28843649df5057ff893717426d62ba4a49825c7cef98588979c7d1eb6026a50226f28de836145039bb4c4254f40ebeb2c19aa9f78b0ccef5056d6c",
+        "metadata": [
+          {
+            "descricao": "Signo",
+            "chave": "signo",
+            "valor": "Peixes"
+          }
+        ]
+      },
+      {
+        "data": "1989-09-14",
+        "movimento": "EMISSAO_CNH",
+        "categoria": "CNH",
+        "descricao": "Primeira habilitação (CNH)",
+        "idade": 18
+      },
+      {
+        "data": "2004-02-12",
+        "movimento": "NASCIMENTO_PARENTE",
+        "categoria": "FAMILIA",
+        "descricao": "Nascimento de <b>Isadora Sampaio Pauer</b> — <b>Filho</b>",
+        "idade": 32,
+        "metadata": [
+          {
+            "descricao": "Nome",
+            "chave": "nome",
+            "valor": "Isadora Sampaio Pauer"
+          },
+          {
+            "descricao": "CPF",
+            "chave": "cpf",
+            "valor": "18289560745"
+          },
+          {
+            "descricao": "Grau de parentesco",
+            "chave": "grau",
+            "valor": "Filho"
+          }
+        ]
+      },
+      {
+        "data": "2009-11-07",
+        "movimento": "OBITO_PARENTE",
+        "categoria": "FAMILIA",
+        "descricao": "Falecimento de <b>Marlene Jorge Sampaio</b> — <b>Mae</b>",
+        "idade": 38,
+        "metadata": [
+          {
+            "descricao": "Nome",
+            "chave": "nome",
+            "valor": "Marlene Jorge Sampaio"
+          },
+          {
+            "descricao": "CPF",
+            "chave": "cpf",
+            "valor": "00900618701"
+          },
+          {
+            "descricao": "Grau de parentesco",
+            "chave": "grau",
+            "valor": "Mae"
+          }
+        ]
+      },
+      {
+        "data": "2021-04-16",
+        "movimento": "VACINA",
+        "categoria": "SAUDE",
+        "descricao": "Vacina <b>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</b> — 1ª Dose",
+        "idade": 50,
+        "metadata": [
+          {
+            "descricao": "Vacina",
+            "chave": "vacina",
+            "valor": "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"
+          },
+          {
+            "descricao": "Dose",
+            "chave": "dose",
+            "valor": "1ª Dose"
+          },
+          {
+            "descricao": "Fabricante",
+            "chave": "fabricante",
+            "valor": "ASTRAZENECA/FIOCRUZ"
+          },
+          {
+            "descricao": "Lote",
+            "chave": "lote",
+            "valor": "213VCD017W"
+          },
+          {
+            "descricao": "Grupo",
+            "chave": "grupo",
+            "valor": "Outros"
+          },
+          {
+            "descricao": "Estabelecimento",
+            "chave": "estabelecimento",
+            "valor": "SMS CF MAICON SIQUEIRA AP 40"
+          },
+          {
+            "descricao": "Município",
+            "chave": "municipio",
+            "valor": "RIO DE JANEIRO"
+          },
+          {
+            "descricao": "UF",
+            "chave": "uf",
+            "valor": "RJ"
+          }
+        ]
+      },
+      {
+        "data": "2021-07-09",
+        "movimento": "VACINA",
+        "categoria": "SAUDE",
+        "descricao": "Vacina <b>COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD</b> — 2ª Dose",
+        "idade": 50,
+        "metadata": [
+          {
+            "descricao": "Vacina",
+            "chave": "vacina",
+            "valor": "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"
+          },
+          {
+            "descricao": "Dose",
+            "chave": "dose",
+            "valor": "2ª Dose"
+          },
+          {
+            "descricao": "Fabricante",
+            "chave": "fabricante",
+            "valor": "ASTRAZENECA/FIOCRUZ"
+          },
+          {
+            "descricao": "Lote",
+            "chave": "lote",
+            "valor": "215VCD012VA"
+          },
+          {
+            "descricao": "Grupo",
+            "chave": "grupo",
+            "valor": "Outros"
+          },
+          {
+            "descricao": "Estabelecimento",
+            "chave": "estabelecimento",
+            "valor": "SMS CF MAICON SIQUEIRA AP 40"
+          },
+          {
+            "descricao": "Município",
+            "chave": "municipio",
+            "valor": "RIO DE JANEIRO"
+          },
+          {
+            "descricao": "UF",
+            "chave": "uf",
+            "valor": "RJ"
+          }
+        ]
+      },
+      {
+        "data": "2021-12-10",
+        "movimento": "VACINA",
+        "categoria": "SAUDE",
+        "descricao": "Vacina <b>COVID-19 PFIZER - COMIRNATY</b> — Reforço",
+        "idade": 50,
+        "metadata": [
+          {
+            "descricao": "Vacina",
+            "chave": "vacina",
+            "valor": "COVID-19 PFIZER - COMIRNATY"
+          },
+          {
+            "descricao": "Dose",
+            "chave": "dose",
+            "valor": "Reforço"
+          },
+          {
+            "descricao": "Fabricante",
+            "chave": "fabricante",
+            "valor": "PFIZER"
+          },
+          {
+            "descricao": "Lote",
+            "chave": "lote",
+            "valor": "FF2592"
+          },
+          {
+            "descricao": "Grupo",
+            "chave": "grupo",
+            "valor": "Outros"
+          },
+          {
+            "descricao": "Estabelecimento",
+            "chave": "estabelecimento",
+            "valor": "SMS CF JOSE DE SOUZA HERDY AP 40"
+          },
+          {
+            "descricao": "Município",
+            "chave": "municipio",
+            "valor": "RIO DE JANEIRO"
+          },
+          {
+            "descricao": "UF",
+            "chave": "uf",
+            "valor": "RJ"
+          }
+        ]
+      },
+      {
+        "data": "2022-07-05",
+        "movimento": "ENTRADA_SOCIEDADE",
+        "categoria": "EMPRESARIAL",
+        "descricao": "Entrada como sócio em <b>WS  COMERCIO DE DESCARTAVEIS LTDA</b>",
+        "idade": 51,
+        "metadata": [
+          {
+            "descricao": "CNPJ",
+            "chave": "cnpj",
+            "valor": "47034435000110"
+          },
+          {
+            "descricao": "Razão social",
+            "chave": "razaoSocial",
+            "valor": "WS  COMERCIO DE DESCARTAVEIS LTDA"
+          },
+          {
+            "descricao": "Qualificação",
+            "chave": "qualificacao",
+            "valor": "Sócio-Administrador"
+          }
+        ]
+      },
+      {
+        "data": "2022-07-05",
+        "movimento": "ABERTURA_EMPRESA",
+        "categoria": "EMPRESARIAL",
+        "descricao": "Abertura da empresa <b>WS  COMERCIO DE DESCARTAVEIS LTDA</b>",
+        "idade": 51,
+        "metadata": [
+          {
+            "descricao": "CNPJ",
+            "chave": "cnpj",
+            "valor": "47034435000110"
+          },
+          {
+            "descricao": "Razão social",
+            "chave": "razaoSocial",
+            "valor": "WS  COMERCIO DE DESCARTAVEIS LTDA"
+          },
+          {
+            "descricao": "Situação",
+            "chave": "situacao",
+            "valor": "ATIVA"
+          }
+        ]
+      },
+      {
+        "data": "2022-07-11",
+        "movimento": "VACINA",
+        "categoria": "SAUDE",
+        "descricao": "Vacina <b>COVID-19 PFIZER - COMIRNATY</b> — 2º Reforço",
+        "idade": 51,
+        "metadata": [
+          {
+            "descricao": "Vacina",
+            "chave": "vacina",
+            "valor": "COVID-19 PFIZER - COMIRNATY"
+          },
+          {
+            "descricao": "Dose",
+            "chave": "dose",
+            "valor": "2º Reforço"
+          },
+          {
+            "descricao": "Fabricante",
+            "chave": "fabricante",
+            "valor": "PFIZER"
+          },
+          {
+            "descricao": "Lote",
+            "chave": "lote",
+            "valor": "FP7498"
+          },
+          {
+            "descricao": "Grupo",
+            "chave": "grupo",
+            "valor": "Outros"
+          },
+          {
+            "descricao": "Estabelecimento",
+            "chave": "estabelecimento",
+            "valor": "SMS CF JOSE DE SOUZA HERDY AP 40"
+          },
+          {
+            "descricao": "Município",
+            "chave": "municipio",
+            "valor": "RIO DE JANEIRO"
+          },
+          {
+            "descricao": "UF",
+            "chave": "uf",
+            "valor": "RJ"
+          }
+        ]
+      }
+    ],
+    "naturalidade_completa": {
+      "encontrado": false
+    }
+  },
+  "foto_cnh_senatran_cache": "{\"formCnh\":\"2932473024\",\"numeroRegistro\":\"00004338249\",\"nome\":\"ISABELA JORGE SAMPAIO\",\"cpf\":\"012.392.097-38\",\"uf\":\"RJ\",\"nomeMae\":\"MARLENE JORGE SAMPAIO\",\"dataEmissao\":\"07/01/2025\",\"dataValidade\":\"05/01/2030\",\"dataValidadeVencida\":false,\"categoria\":\"B\",\"observacoes\":\"\",\"bloqueios\":[],\"multas\":[],\"ocorrencias\":[],\"mensagemCursosEspeciais\":\"O condutor não possui registro de informações sobre a realização de cursos especializados.\",\"cursosEspeciais\":[],\"possuiRetencaoAdministrativa\":false,\"retrato\":\"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAMgAlgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDZooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiikzQAtFRmVRTDcc/dNAE9FVjNI33cD600tN/eGKLgW6Kpl5O8i0ze/aUUXHYv0VnedMP4gacJ5R12n8aLhYv0VSNzIvbIp4ueKBWLVFVxcinLOpoAmopodT3p1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU0sBUTS+nFAExYCmlxVdpfeoWmHPNK47FlpG9QBUZOTyxNVmuMVE0zn7oIpXHYvbsdDgU1mBHWqReQ9c0Yc9c0gLX/AAOl5/v1UxjvTw3qTQBMyE+ho8tsdKiVsH2p4c884FABtI7GmE4NPDn1pSwPUg0AIsi4waeDj7rA0xolPQ4qMoVzzkUAWg4bqopwRT7VQLMKkjmbuaYi4EK8BqeHdfvcCq6Nv6HmrEb7shqYEgk49fpTgwNQGNkyydPSno4b2NMRNRTRS5oAWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiopJlSgCQnFQvOozjrVWW5Zs46VAST3qWx2LD3OM1A07noMCozTWf8aQx5JPU803OKjDk9KQybe/NAEu8+35Uu6oi+R8vWmYc9AaALAk9+KXzOeoxVZgw/hzSAt6CiwFncPWnDB6MM1VDt/do3e2KLAW846ijdxVcPx96lVz65FFgJvMXGKYWHajeO4zSHaenFADxJ60vmVCVx05pOR2oAnDA9aa0eeUNMB96cGI5HWgQRyMj81cV9xzmq3yyjPQ0wOyEimBqJL2pHGw7s9etVEl4zU/mqwHemBYRuKf2qtE6njvVhfTNMQoNLTc4NL9KAHUUnNGKAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAprOFHJqOWdYx71QlnZ2NK47E81znhelVGfJOTRsZuScUbFH1qbjGM/oM035j1OKsKuegp3l4HOKAK200GP8asZQfxc+1IXGflQn60XAgEftTlg/2Km3n6Uhf3oAaIj/AHQKDD704ZPrS4PHNAEfkr3Y/lSGFPX9Kl2j+/R8v96gCExp/e/Sjy0x94VOfzFN256qCKYiuYvQg/jSGNhzt/KpzEv938jSFMfdcigCHIPHQ03kVK6v3UMPWocjPXB9DQA4Maerg9aiOR96nYB6UAPZMdKQHHWkBxxTsAjIoAVTgipGw49/Wq+/H1p4cECgAB7d6kXOPeopjjBHWnRS7etAE6gg9atKfL53lqpbizZqwvIHPFAE3nZIqVJBVM9etSqT7U7gWwc0VAH2n2qUOCKYh9ApAaWgAoopKAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqvPOEyB1qO4utvyr1qi0hcnnmk2NIe7E8k00deOtCLuNOZkQ+pqRjgm6lwidTk1GXZvp6CmsQPRaAJS7H7owKj4zydxqPzRz1NN85j90YosBYwey4pGVv4nAqFVlf+LAo+RScksadgJtqDqS1BmROgAqBnJ6cUwjuaLCuTm5HZfzpv2ktxjioCWPQUgR880WAnNwKFnQ9RVcx0ohJ70AW1dcdaUuOzVVEYX+I04fL7/WgCYu3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\",\"mensagemExameToxicologico\":\"Não há registro de informação de exame toxicológico\",\"exameToxicologicoValido\":true,\"mostrarAlertaExameToxicologico\":true,\"fraseToxicologicoValido\":\"Conduzir veículos das categorias de habilitação A ou B ou A/B ou ACC/A ou ACC/B não exige comprovação da realização de exame toxicológico para efeito de fiscalização viária.\",\"cpfDesformatado\":\"01239209738\",\"ehabilitado\":true}",
+  "nome": "ISABELA JORGE SAMPAIO",
+  "mae": {
+    "nome": "Marlene Jorge Sampaio",
+    "cpf": "00900618701"
+  },
+  "sexo": "F",
+  "data_nasc": "26/02/1971",
+  "signo": "Peixes",
+  "idade": 55,
+  "renda": "R$ 2.122,00",
+  "escolaridade": "SUPERIOR COMPLETO",
+  "classe_social": "B",
+  "subclasse": "B2",
+  "cns": 706007811533344,
+  "capital": 80000,
+  "rg": {
+    "numero": "91861237"
+  },
+  "titulo": {
+    "numero": 77741040388
+  },
+  "obito": false,
+  "enderecos": [
+    {
+      "endereco": "Rua Leopoldino De Oliveira",
+      "numero": 273,
+      "bairro": "Madureira",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21360060",
+      "latitude": "-22.8644180",
+      "longitude": "-43.3407960"
+    },
+    {
+      "endereco": "Rua Leopoldino De Oliveira",
+      "numero": 281,
+      "bairro": "Madureira",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21360060",
+      "latitude": "-22.8642750",
+      "longitude": "-43.3408810"
+    },
+    {
+      "endereco": "Rua Iguaçu",
+      "numero": 0,
+      "bairro": "Engenheiro Leal",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21370130"
+    },
+    {
+      "endereco": "Rua Iguaçu",
+      "numero": 73,
+      "bairro": "Engenheiro Leal",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21370130",
+      "latitude": "-22.8744534",
+      "longitude": "-43.3343994"
+    },
+    {
+      "endereco": "Rua Iriguaçu",
+      "numero": 0,
+      "bairro": "Bangu",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21862030"
+    },
+    {
+      "endereco": "Rua Iriguaçu",
+      "numero": 73,
+      "bairro": "Bangu",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21862030",
+      "latitude": "-22.8728112",
+      "longitude": "-43.4658205"
+    },
+    {
+      "endereco": "Rua Iriguaçu",
+      "numero": 73,
+      "complemento": "AP 101",
+      "bairro": "Bangu",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21862030",
+      "latitude": "-22.8728112",
+      "longitude": "-43.4658205"
+    },
+    {
+      "endereco": "Rua Iriguaçu",
+      "numero": 80,
+      "bairro": "Bangu",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21862030",
+      "latitude": "-22.8730087",
+      "longitude": "-43.4656219"
+    },
+    {
+      "endereco": "Rua Da Chita",
+      "numero": 132,
+      "complemento": "FDS",
+      "bairro": "Bangu",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "21862170",
+      "latitude": "-22.8736831",
+      "longitude": "-43.4636568"
+    },
+    {
+      "endereco": "Rua Mário Covas Júnior",
+      "numero": 190,
+      "complemento": "AP 403",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22631030",
+      "latitude": "-23.0048120",
+      "longitude": "-43.3297437"
+    },
+    {
+      "endereco": "Rua Mário Covas Júnior",
+      "numero": 190,
+      "complemento": "AP 702",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22631030",
+      "latitude": "-23.0048120",
+      "longitude": "-43.3297437"
+    },
+    {
+      "endereco": "Rua Dos Jacarandás Da Península",
+      "numero": 1160,
+      "complemento": "AP 402",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22776050",
+      "latitude": "-22.9887440",
+      "longitude": "-43.3556120"
+    },
+    {
+      "endereco": "Rua Dos Jacarandás Da Península",
+      "numero": 1160,
+      "complemento": "BL 1 AP 402",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22776050",
+      "latitude": "-22.9887440",
+      "longitude": "-43.3556120"
+    },
+    {
+      "endereco": "Rua Dos Jacarandás Da Península",
+      "numero": 1160,
+      "complemento": "BL 1 AP 402 GR 1",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22776050",
+      "latitude": "-22.9887440",
+      "longitude": "-43.3556120"
+    },
+    {
+      "endereco": "Rua Dos Jacarandás Da Península",
+      "numero": 1160,
+      "complemento": "BL 4 AP 1001 GR 2",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22776050",
+      "latitude": "-22.9887440",
+      "longitude": "-43.3556120"
+    },
+    {
+      "endereco": "Avenida Avenida Ayrton Senna 270",
+      "numero": 270,
+      "complemento": "BL 13 AP 405",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22793909",
+      "latitude": "-23.0083150",
+      "longitude": "-43.3659640"
+    },
+    {
+      "endereco": "Avenida Avenida Ayrton Senna 270",
+      "numero": 270,
+      "complemento": "BL 2 405",
+      "bairro": "Barra Da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "22793909",
+      "latitude": "-23.0083150",
+      "longitude": "-43.3659640"
+    },
+    {
+      "endereco": "Rua 26 Conjunto A",
+      "numero": 0,
+      "complemento": "7",
+      "bairro": "Residencial Do Bosque (São Sebastião)",
+      "cidade": "Brasília",
+      "uf": "DF",
+      "cep": "71694044",
+      "latitude": "0.0000000",
+      "longitude": "0.0000000"
+    }
+  ],
+  "telefones": [
+    {
+      "telefone": "(21) 999156848",
+      "ddd": "21",
+      "tel": "999156848",
+      "telfull": 21999156848,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "17/01/2025",
+      "fontes": [
+        "BASE RAIZ",
+        "fx_d.txt",
+        "fx_d.txt",
+        "UnityVIVO.csv",
+        "vivo.txt",
+        "BR28M-VIVOFIXO.txt",
+        "BaseCompras",
+        "BaseCo",
+        "PIX",
+        "ANATELJAN26",
+        "ANT1024"
+      ]
+    },
+    {
+      "telefone": "(21) 995063518",
+      "ddd": "21",
+      "tel": "995063518",
+      "telfull": 21995063518,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "03/10/2025",
+      "fontes": [
+        "BASE RAIZ",
+        "CREDILINK",
+        "ANATELJAN26",
+        "ANT1024"
+      ]
+    },
+    {
+      "telefone": "(21) 995906340",
+      "ddd": "21",
+      "tel": "995906340",
+      "telfull": 21995906340,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "15/04/2025",
+      "fontes": [
+        "BASE RAIZ",
+        "CREDILINK",
+        "vivo.txt",
+        "ANATELJAN26"
+      ]
+    },
+    {
+      "telefone": "(21) 988531167",
+      "ddd": "21",
+      "tel": "988531167",
+      "telfull": 21988531167,
+      "tipo": 3,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "01/02/2018",
+      "fontes": [
+        "BASE RAIZ",
+        "CREDILINK",
+        "pre032022.txt"
+      ]
+    },
+    {
+      "telefone": "(21) 988530668",
+      "ddd": "21",
+      "tel": "988530668",
+      "telfull": 21988530668,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ",
+        "CREDILINK",
+        "pre032022.txt"
+      ]
+    },
+    {
+      "telefone": "(21) 99156848",
+      "ddd": "21",
+      "tel": "99156848",
+      "telfull": 2199156848,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ",
+        "vivo.txt"
+      ]
+    },
+    {
+      "telefone": "(21) 98951202",
+      "ddd": "21",
+      "tel": "98951202",
+      "telfull": 2198951202,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "01/01/2024",
+      "fontes": [
+        "vivo.txt"
+      ]
+    },
+    {
+      "telefone": "(21) 998951202",
+      "ddd": "21",
+      "tel": "998951202",
+      "telfull": 21998951202,
+      "tipo": 0,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "22/01/2025",
+      "fontes": [
+        "BASE RAIZ",
+        "CREDILINK",
+        "vivo.txt",
+        "ANATELJAN26",
+        "ANT1024"
+      ]
+    },
+    {
+      "telefone": "(21) 24975201",
+      "ddd": "21",
+      "tel": "24975201",
+      "telfull": 2124975201,
+      "tipo": 1,
+      "prioridade": 1,
+      "classificacao": "A",
+      "data": "01/12/2025",
+      "fontes": [
+        "BASE RAIZ",
+        "UnityVIVO.csv",
+        "fixo_02_2020.txt",
+        "BR28M-VIVOFIXO.txt",
+        "BR43M-algar.txt",
+        "BaseCompras",
+        "SRS23",
+        "ANATELJAN26"
+      ]
+    },
+    {
+      "telefone": "(21) 33595900",
+      "ddd": "21",
+      "tel": "33595900",
+      "telfull": 2133595900,
+      "prioridade": 3,
+      "classificacao": "C",
+      "data": "01/01/2020",
+      "fontes": [
+        "RFB"
+      ]
+    },
+    {
+      "telefone": "(21) 23313317",
+      "ddd": "21",
+      "tel": "23313317",
+      "telfull": 2123313317,
+      "tipo": 1,
+      "prioridade": 5,
+      "classificacao": "D",
+      "data": "12/08/2019",
+      "fontes": [
+        "BASE RAIZ",
+        "SRS23"
+      ]
+    },
+    {
+      "telefone": "(21) 996183013",
+      "ddd": "21",
+      "tel": "996183013",
+      "telfull": 21996183013,
+      "tipo": 3,
+      "prioridade": 4,
+      "classificacao": "C2",
+      "data": "19/07/2017",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 33902358",
+      "ddd": "21",
+      "tel": "33902358",
+      "telfull": 2133902358,
+      "tipo": 2,
+      "prioridade": 3,
+      "classificacao": "C2",
+      "data": "02/03/2015",
+      "fontes": [
+        "BASE RAIZ",
+        "SRS23"
+      ]
+    },
+    {
+      "telefone": "(21) 998853066",
+      "ddd": "21",
+      "tel": "998853066",
+      "telfull": 21998853066,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 998590024",
+      "ddd": "21",
+      "tel": "998590024",
+      "telfull": 21998590024,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "23/01/2016",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 998331880",
+      "ddd": "21",
+      "tel": "998331880",
+      "telfull": 21998331880,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 996325183",
+      "ddd": "21",
+      "tel": "996325183",
+      "telfull": 21996325183,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 996069187",
+      "ddd": "21",
+      "tel": "996069187",
+      "telfull": 21996069187,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 998853116",
+      "ddd": "21",
+      "tel": "998853116",
+      "telfull": 21998853116,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 971256153",
+      "ddd": "21",
+      "tel": "971256153",
+      "telfull": 21971256153,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "Data Inválida",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 994651077",
+      "ddd": "21",
+      "tel": "994651077",
+      "telfull": 21994651077,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "15/12/2009",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 98590024",
+      "ddd": "21",
+      "tel": "98590024",
+      "telfull": 2198590024,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 98331880",
+      "ddd": "21",
+      "tel": "98331880",
+      "telfull": 2198331880,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 96325183",
+      "ddd": "21",
+      "tel": "96325183",
+      "telfull": 2196325183,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 96183013",
+      "ddd": "21",
+      "tel": "96183013",
+      "telfull": 2196183013,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 94651077",
+      "ddd": "21",
+      "tel": "94651077",
+      "telfull": 2194651077,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 71443838",
+      "ddd": "21",
+      "tel": "71443838",
+      "telfull": 2171443838,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "01/01/2010",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 33360351",
+      "ddd": "21",
+      "tel": "33360351",
+      "telfull": 2133360351,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "05/03/2009",
+      "fontes": [
+        "BASE RAIZ"
+      ]
+    },
+    {
+      "telefone": "(21) 33313317",
+      "ddd": "21",
+      "tel": "33313317",
+      "telfull": 2133313317,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "10/03/2020",
+      "fontes": [
+        "BASE RAIZ",
+        "SRS23"
+      ]
+    },
+    {
+      "telefone": "(21) 24336384",
+      "ddd": "21",
+      "tel": "24336384",
+      "telfull": 2124336384,
+      "tipo": 0,
+      "prioridade": 0,
+      "data": "19/11/2011",
+      "fontes": [
+        "BASE RAIZ",
+        "SRS23"
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "email": "isabelajsampaio@hotmail.com",
+      "avaliacao": "OTIMO (ATUALIZADO)"
+    },
+    {
+      "email": "comercial@klonex.com.br",
+      "avaliacao": "BOM"
+    },
+    {
+      "email": "joao@klonex.com.br",
+      "avaliacao": "RUIM"
+    }
+  ],
+  "form_cnh": "2932473024",
+  "numero_registro": "00004338249",
+  "uf": "RJ",
+  "nome_mae": "MARLENE JORGE SAMPAIO",
+  "data_emissao": "07/01/2025",
+  "data_validade": "05/01/2030",
+  "data_validade_vencida": false,
+  "categoria": "B",
+  "mensagem_cursos_especiais": "O condutor não possui registro de informações sobre a realização de cursos especializados.",
+  "possui_retencao_administrativa": false,
+  "mensagem_exame_toxicologico": "Não há registro de informação de exame toxicológico",
+  "exame_toxicologico_valido": true,
+  "mostrar_alerta_exame_toxicologico": true,
+  "frase_toxicologico_valido": "Conduzir veículos das categorias de habilitação A ou B ou A/B ou ACC/A ou ACC/B não exige comprovação da realização de exame toxicológico para efeito de fiscalização viária.",
+  "cpf_desformatado": "01239209738",
+  "ehabilitado": true,
+  "retrato": "<base64:25068b>"
+}

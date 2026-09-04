@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#151719">
+    <title>SpeedPainel — Índice de despacho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v=22">
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #080b0e;
+            --bg-soft: #0d1215;
+            --surface: rgba(17, 24, 28, .88);
+            --surface-strong: #121b20;
+            --surface-raised: #172228;
+            --line: rgba(184, 215, 208, .12);
+            --line-strong: rgba(184, 215, 208, .22);
+            --text: #edf6f2;
+            --text-soft: #b4c4bf;
+            --muted: #71827e;
+            --accent: #9af5ce;
+            --accent-strong: #47d89d;
+            --accent-dim: rgba(91, 224, 163, .12);
+            --orange: #f6b86b;
+            --orange-dim: rgba(246, 184, 107, .12);
+            --danger: #ff887b;
+            --shadow: 0 24px 80px rgba(0, 0, 0, .34);
+            --radius: 18px;
+            --radius-sm: 12px;
+            --mono: "Azeret Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            --sans: "Familjen Grotesk", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+
+        * { box-sizing: border-box; }
+        html { min-width: 320px; background: var(--bg); }
+        body {
+            margin: 0;
+            min-width: 320px;
+            min-height: 100vh;
+            color: var(--text);
+            background:
+                radial-gradient(circle at 8% 8%, rgba(55, 175, 130, .14), transparent 27rem),
+                radial-gradient(circle at 92% 16%, rgba(246, 184, 107, .08), transparent 24rem),
+                linear-gradient(145deg, #080b0e 0%, #0b1114 52%, #090d10 100%);
+            font-family: var(--sans);
+            font-size: 14px;
+            letter-spacing: .01em;
+        }
+
+        body::before {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            content: "";
+            opacity: .22;
+            background-image: linear-gradient(rgba(170, 220, 207, .045) 1px, transparent 1px), linear-gradient(90deg, rgba(170, 220, 207, .045) 1px, transparent 1px);
+            background-size: 48px 48px;
+            mask-image: linear-gradient(to bottom, black, transparent 74%);
+        }
+
+        button, input, select { font: inherit; }
+        button { color: inherit; }
+        button, .dropzone { -webkit-tap-highlight-color: transparent; }
+        [hidden] { display: none !important; }
+        ::selection { color: #07110d; background: var(--accent); }
+        :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+        .mono, code, kbd, .path, .section-meta, .eyebrow, .brand-tag { font-family: var(--mono); }
+        .muted { color: var(--muted); }
+
+        .app {
+            width: min(1480px, calc(100% - 40px));
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 22px 0 28px;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 70px;
+            padding: 0 6px 18px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .brand, .brand-line, .topbar-actions, .lic-chip, .output-title-row, .output-head, .search-label, .search-help, .search-actions, .status-head, .section-heading, .block-head, .files-head, .up-row, .modal-head, .modal-heading, .modal-actions, .field, .credits-row {
+            display: flex;
+            align-items: center;
+        }
+
+        .brand { gap: 13px; }
+        .brand-logo {
+            display: grid;
+            width: 42px;
+            height: 42px;
+            place-items: center;
+            border: 1px solid rgba(154, 245, 206, .45);
+            border-radius: 13px;
+            color: #07110d;
+            background: linear-gradient(145deg, var(--accent), #5ed9a8);
+            box-shadow: 0 0 0 5px rgba(91, 224, 163, .06), 0 10px 30px rgba(61, 203, 145, .16);
+            font-family: var(--mono);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: -.08em;
+        }
+
+        .brand-text { display: grid; gap: 3px; }
+        .brand-line { gap: 9px; }
+        .brand-name { font-size: 17px; font-weight: 700; letter-spacing: -.04em; }
+        .brand-tag {
+            padding: 3px 6px;
+            border: 1px solid var(--line-strong);
+            border-radius: 5px;
+            color: var(--text-soft);
+            font-size: 9px;
+            letter-spacing: .04em;
+        }
+        .brand-context { color: var(--muted); font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+        .topbar-actions { gap: 10px; }
+
+        .lic-chip, .btn-icon {
+            border: 1px solid var(--line);
+            background: rgba(16, 23, 26, .72);
+            transition: border-color .2s ease, background .2s ease, transform .2s ease;
+        }
+        .lic-chip {
+            gap: 9px;
+            min-height: 34px;
+            padding: 0 12px;
+            border-radius: 999px;
+            cursor: pointer;
+        }
+        .lic-chip:hover, .btn-icon:hover { border-color: var(--line-strong); background: var(--surface-raised); transform: translateY(-1px); }
+        .lic-label { color: var(--muted); font-family: var(--mono); font-size: 10px; text-transform: uppercase; }
+        .lic-val { color: var(--text-soft); font-family: var(--mono); font-size: 10px; }
+        .lic-dot, .led {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: var(--muted);
+            box-shadow: 0 0 0 4px rgba(113, 130, 126, .1);
+        }
+        .btn-icon {
+            display: grid;
+            width: 34px;
+            height: 34px;
+            padding: 0;
+            place-items: center;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .workspace-shell {
+            display: grid;
+            grid-template-columns: 218px minmax(0, 1fr);
+            min-height: calc(100vh - 148px);
+            margin-top: 22px;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            background: rgba(12, 18, 21, .68);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(20px);
+        }
+
+        .tabs {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            padding: 18px 13px;
+            border-right: 1px solid var(--line);
+            background: rgba(9, 14, 17, .72);
+        }
+        .tab {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            width: 100%;
+            min-height: 47px;
+            padding: 0 13px;
+            border: 1px solid transparent;
+            border-radius: 11px;
+            color: var(--muted);
+            background: transparent;
+            cursor: pointer;
+            text-align: left;
+            transition: color .2s ease, background .2s ease, border-color .2s ease, transform .2s ease;
+        }
+        .tab:hover { color: var(--text-soft); background: rgba(151, 245, 207, .05); transform: translateX(2px); }
+        .tab.active {
+            color: var(--accent);
+            border-color: rgba(154, 245, 206, .18);
+            background: linear-gradient(90deg, rgba(93, 225, 165, .14), rgba(93, 225, 165, .035));
+            box-shadow: inset 3px 0 0 var(--accent-strong);
+        }
+        .tab-ic { width: 17px; height: 17px; flex: 0 0 auto; }
+        .tab span { font-size: 13px; font-weight: 600; }
+        .tabs-foot {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: auto;
+            padding: 18px 8px 3px;
+        }
+        .tabs-rule { height: 1px; flex: 1; background: var(--line); }
+        .tabs-shortcut { display: grid; width: 21px; height: 21px; place-items: center; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); font-family: var(--mono); font-size: 11px; }
+
+        .panels { min-width: 0; }
+        .panel { min-height: 100%; }
+        .search-workspace { display: grid; grid-template-columns: minmax(255px, 305px) minmax(0, 1fr); min-height: 100%; }
+        .search-controls { padding: 31px 25px 32px; border-right: 1px solid var(--line); }
+        .search-results { display: flex; min-width: 0; flex-direction: column; padding: 31px 31px 20px; }
+
+        .search-heading { display: grid; gap: 8px; margin-bottom: 22px; }
+        .section-heading { justify-content: space-between; gap: 12px; }
+        .section-heading h1, .section-heading h2, .output-title-row h2, .panel-hero h2 { margin: 0; color: var(--text); letter-spacing: -.045em; }
+        .section-heading h1 { font-size: 23px; font-weight: 700; }
+        .section-heading h2 { font-size: 12px; font-weight: 700; }
+        .search-heading p, .output-heading p, .panel-hero > p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+        .section-meta, .eyebrow { color: var(--accent-strong); font-size: 9px; letter-spacing: .11em; text-transform: uppercase; }
+
+        .status-card, .output, .files-card, .credits-card {
+            border: 1px solid var(--line);
+            background: linear-gradient(145deg, rgba(24, 35, 39, .93), rgba(13, 19, 22, .86));
+            box-shadow: 0 14px 35px rgba(0, 0, 0, .14);
+        }
+        .status-card { position: relative; overflow: hidden; margin-bottom: 27px; padding: 15px; border-radius: var(--radius-sm); }
+        .status-card::after {
+            position: absolute;
+            top: -30px;
+            right: -22px;
+            width: 104px;
+            height: 104px;
+            border: 1px solid rgba(154, 245, 206, .12);
+            border-radius: 50%;
+            content: "";
+            box-shadow: 0 0 0 17px rgba(154, 245, 206, .025), 0 0 0 34px rgba(154, 245, 206, .018);
+        }
+        .status-head { gap: 9px; margin-bottom: 15px; }
+        .status-title { font-size: 12px; font-weight: 700; }
+        .status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 8px; margin: 0; }
+        .status-cell { display: grid; gap: 4px; min-width: 0; }
+        .k { color: var(--muted); font-family: var(--mono); font-size: 9px; letter-spacing: .05em; text-transform: uppercase; }
+        .v { color: var(--text-soft); font-size: 11px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .status-card[data-state="active"] .led, [data-state="active"] .lic-dot { background: var(--accent-strong); box-shadow: 0 0 0 4px rgba(71, 216, 157, .12), 0 0 16px rgba(71, 216, 157, .5); }
+        .status-card[data-state="active"] .status-title, [data-state="active"] .lic-val { color: var(--accent); }
+        .status-card[data-state="error"] .led, [data-state="error"] .lic-dot { background: var(--danger); box-shadow: 0 0 0 4px rgba(255, 136, 123, .11); }
+
+        .mode-section { margin-bottom: 25px; }
+        .modes { display: grid; gap: 5px; margin-top: 12px; }
+        .mode {
+            display: grid;
+            grid-template-columns: 25px 1fr auto;
+            align-items: center;
+            gap: 8px;
+            min-height: 37px;
+            padding: 0 9px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            color: var(--text-soft);
+            background: transparent;
+            cursor: pointer;
+            text-align: left;
+            transition: all .18s ease;
+        }
+        .mode:hover { border-color: var(--line); background: rgba(255, 255, 255, .025); }
+        .mode .ic { color: var(--muted); font-family: var(--mono); font-size: 9px; }
+        .mode > span:nth-child(2) { font-size: 12px; }
+        .mode-current { color: transparent; font-family: var(--mono); font-size: 8px; text-transform: uppercase; }
+        .mode.active { border-color: rgba(154, 245, 206, .2); color: var(--accent); background: var(--accent-dim); }
+        .mode.active .ic, .mode.active .mode-current { color: var(--accent-strong); }
+
+        .search { padding: 17px 0 21px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+        .search-label { justify-content: space-between; margin-bottom: 9px; color: var(--text-soft); font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+        .field-hint { color: var(--muted); font-family: var(--mono); font-size: 8px; font-weight: 400; }
+        .search-line, .prompt-line { display: flex; align-items: center; gap: 10px; min-height: 47px; padding: 0 13px; border: 1px solid var(--line-strong); border-radius: 10px; background: rgba(5, 9, 11, .42); transition: border-color .2s ease, box-shadow .2s ease, background .2s ease; }
+        .search-line:focus-within, .prompt-line:focus-within { border-color: var(--accent-strong); background: rgba(11, 24, 20, .58); box-shadow: 0 0 0 4px rgba(71, 216, 157, .08); }
+        .search-icon { width: 16px; height: 16px; flex: 0 0 auto; color: var(--accent-strong); }
+        .search-input, .term-input { width: 100%; min-width: 0; border: 0; outline: 0; color: var(--text); background: transparent; font-family: var(--mono); font-size: 12px; }
+        .search-input::placeholder, .term-input::placeholder { color: #556763; }
+        .search-help { justify-content: space-between; margin-top: 8px; color: var(--muted); font-family: var(--mono); font-size: 9px; }
+        kbd { padding: 3px 5px; border: 1px solid var(--line-strong); border-bottom-width: 2px; border-radius: 4px; color: var(--text-soft); font-size: 8px; text-transform: uppercase; }
+        .search-actions { gap: 8px; margin-top: 15px; }
+        .btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 36px; padding: 0 13px; border: 1px solid transparent; border-radius: 8px; font-size: 10px; font-weight: 700; letter-spacing: .03em; cursor: pointer; transition: transform .2s ease, border-color .2s ease, background .2s ease, color .2s ease; }
+        .btn:hover { transform: translateY(-1px); }
+        .btn-primary { color: #07110d; background: var(--accent); box-shadow: 0 7px 18px rgba(71, 216, 157, .15); }
+        .btn-primary:hover { background: #c0fce1; }
+        .btn-ghost { border-color: var(--line); color: var(--text-soft); background: transparent; }
+        .btn-ghost:hover { border-color: var(--line-strong); color: var(--text); background: rgba(255, 255, 255, .045); }
+        .btn-warn { border-color: rgba(246, 184, 107, .26); color: var(--orange); background: var(--orange-dim); }
+        .btn-warn:hover { background: rgba(246, 184, 107, .19); }
+        .btn-sm { min-height: 30px; padding: 0 10px; font-size: 9px; }
+        .btn-ic { font-size: 15px; line-height: 0; }
+
+        .base-summary { padding-top: 21px; }
+        .section-icon { width: 15px; height: 15px; color: var(--muted); }
+        .stats-row { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 12px; }
+        .stat-pill { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 9px 10px; border: 1px solid rgba(184, 215, 208, .08); border-radius: 8px; background: rgba(255, 255, 255, .018); }
+        .stat-pill .k { font-size: 8px; }
+        .stat-value { display: flex; align-items: baseline; gap: 5px; }
+        .stat-value .v { color: var(--text); font-family: var(--mono); font-size: 11px; }
+        .stat-value .u { color: var(--muted); font-family: var(--mono); font-size: 8px; }
+
+        .history-block { margin-top: 25px; padding-top: 19px; border-top: 1px solid var(--line); }
+        .block-head { gap: 7px; }
+        .prompt, .path { color: var(--muted); font-size: 9px; }
+        .prompt { color: var(--text-soft); font-family: var(--mono); text-transform: uppercase; }
+        .block-head .path { margin-right: auto; }
+        .link-btn { border: 0; padding: 0; color: var(--accent-strong); background: transparent; font-family: var(--mono); font-size: 9px; cursor: pointer; }
+        .history { display: grid; gap: 5px; margin-top: 10px; }
+
+        .output { display: flex; min-height: 535px; flex: 1; flex-direction: column; overflow: hidden; border-radius: var(--radius); }
+        .output-head { justify-content: space-between; gap: 24px; padding: 20px 21px; border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, .018); }
+        .output-heading { min-width: 0; }
+        .output-title-row { gap: 10px; }
+        .output-title-row h2 { font-size: 16px; }
+        .output-mode { padding: 4px 6px; border: 1px solid rgba(154, 245, 206, .22); border-radius: 5px; color: var(--accent-strong); font-family: var(--mono); font-size: 8px; letter-spacing: .05em; text-transform: uppercase; }
+        .output-heading p { margin-top: 6px; }
+        .output-meta { align-self: flex-start; white-space: nowrap; }
+        .output-meta .path { color: var(--accent-strong); font-size: 9px; }
+        .output-body { display: grid; flex: 1; min-height: 0; place-items: center; padding: 40px 24px; }
+        .empty { display: grid; max-width: 305px; justify-items: center; text-align: center; }
+        .empty-icon { width: 51px; height: 51px; margin-bottom: 17px; padding: 13px; border: 1px solid rgba(154, 245, 206, .16); border-radius: 16px; color: var(--accent-strong); background: rgba(91, 224, 163, .06); }
+        .empty-title { margin: 0 0 7px; color: var(--text); font-size: 15px; font-weight: 700; letter-spacing: -.03em; }
+        .empty .muted { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
+        .results-footer { display: flex; justify-content: space-between; gap: 16px; padding: 13px 3px 0; color: var(--muted); font-size: 9px; }
+
+        .panel-content { max-width: 920px; margin: 0 auto; padding: 42px clamp(24px, 5vw, 74px) 60px; }
+        .panel-hero { margin-bottom: 30px; }
+        .panel-hero-title { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 10px; }
+        .panel-hero-title > svg { width: 21px; height: 21px; margin-top: 3px; color: var(--accent-strong); }
+        .panel-hero h2 { margin-top: 5px; font-size: 28px; }
+        .panel-hero > p { max-width: 610px; font-size: 13px; }
+        code { padding: 3px 5px; border: 1px solid var(--line); border-radius: 5px; color: var(--accent); background: rgba(255, 255, 255, .03); font-size: 10px; }
+        .dropzone { display: block; padding: 48px 28px; border: 1px dashed rgba(154, 245, 206, .32); border-radius: var(--radius); background: linear-gradient(145deg, rgba(91, 224, 163, .06), rgba(91, 224, 163, .015)); cursor: pointer; transition: border-color .2s ease, background .2s ease, transform .2s ease; }
+        .dropzone:hover, .dropzone.is-dragging { border-color: var(--accent); background: rgba(91, 224, 163, .11); transform: translateY(-2px); }
+        .dropzone-inner { display: flex; align-items: center; justify-content: center; gap: 17px; text-align: left; }
+        .dropzone-icon { display: grid; width: 52px; height: 52px; place-items: center; border: 1px solid rgba(154, 245, 206, .2); border-radius: 15px; color: var(--accent); background: rgba(154, 245, 206, .09); }
+        .dropzone-icon svg { width: 23px; height: 23px; }
+        .dropzone-title { color: var(--text); font-size: 16px; font-weight: 700; letter-spacing: -.03em; }
+        .dropzone-sub { margin-top: 6px; font-family: var(--mono); font-size: 9px; }
+        .upload-progress { margin-top: 17px; padding: 15px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: rgba(255, 255, 255, .025); }
+        .up-row { justify-content: space-between; margin-bottom: 9px; }
+        .up-label { color: var(--text-soft); font-size: 11px; }
+        .up-pct { color: var(--accent); font-size: 10px; }
+        .up-bar { height: 5px; overflow: hidden; border-radius: 999px; background: rgba(255, 255, 255, .08); }
+        .up-fill { width: 0; height: 100%; border-radius: inherit; background: var(--accent-strong); box-shadow: 0 0 14px rgba(71, 216, 157, .4); transition: width .2s ease; }
+        .upload-list { display: grid; gap: 7px; margin: 17px 0; }
+        .files-card { overflow: hidden; margin-top: 22px; border-radius: var(--radius); }
+        .files-head { gap: 12px; padding: 15px 17px; border-bottom: 1px solid var(--line); }
+        .files-head > div { margin-right: auto; }
+        .files-count { white-space: nowrap; }
+        .files-body { min-height: 108px; padding: 21px 17px; }
+        .files-empty { font-size: 11px; }
+
+        .credits-content { max-width: 780px; }
+        .credits { padding: 28px 0 10px; }
+        .credits-hero { padding-bottom: 27px; border-bottom: 1px solid var(--line); }
+        .credits-title { margin-top: 11px; color: var(--text); font-size: clamp(29px, 4vw, 43px); font-weight: 700; letter-spacing: -.07em; }
+        .credits-sub { margin-top: 8px; font-size: 12px; }
+        .credits-card { margin-top: 26px; overflow: hidden; border-radius: var(--radius); }
+        .credits-row { justify-content: space-between; gap: 22px; min-height: 51px; padding: 0 17px; border-bottom: 1px solid var(--line); }
+        .credits-row:last-child { border-bottom: 0; }
+        .credits-row .v { color: var(--text); font-size: 12px; }
+        .credits-row .highlight { color: var(--accent); }
+        .tag-mit { padding: 4px 7px; border: 1px solid rgba(154, 245, 206, .2); border-radius: 5px; color: var(--accent) !important; font-family: var(--mono); font-size: 9px !important; }
+        .credits-thanks, .credits-stack { padding-top: 32px; }
+        .kicker { margin-bottom: 10px; color: var(--accent-strong); font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
+        .credits-thanks p { max-width: 440px; margin: 0; color: var(--text-soft); font-size: 13px; line-height: 1.6; }
+        .stack-grid { display: flex; flex-wrap: wrap; gap: 7px; }
+        .chip { padding: 7px 9px; border: 1px solid var(--line); border-radius: 7px; color: var(--text-soft); background: rgba(255, 255, 255, .025); font-family: var(--mono); font-size: 9px; }
+
+        .footer { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 9px; padding: 18px 4px 0; color: var(--muted); font-size: 9px; }
+        .footer-separator { color: rgba(184, 215, 208, .28); }
+
+        .modal { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 20px; background: rgba(3, 6, 7, .74); backdrop-filter: blur(9px); }
+        .modal-window { width: min(100%, 475px); overflow: hidden; border: 1px solid var(--line-strong); border-radius: var(--radius); background: #10181b; box-shadow: 0 28px 100px rgba(0, 0, 0, .54); }
+        .modal-head { justify-content: space-between; padding: 16px 18px; border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, .025); }
+        .modal-heading { gap: 10px; }
+        .modal-heading svg { width: 17px; height: 17px; color: var(--accent-strong); }
+        .modal-title { font-weight: 700; }
+        .modal-close { width: 29px; height: 29px; border: 1px solid var(--line); border-radius: 8px; color: var(--muted); background: transparent; cursor: pointer; font-size: 19px; line-height: 1; }
+        .modal-close:hover { color: var(--text); border-color: var(--line-strong); }
+        .modal-body { padding: 20px; }
+        .modal-hint { margin: 0 0 18px; color: var(--muted); font-size: 11px; line-height: 1.55; }
+        .modal-label, .field > span, .modal-group-label { display: block; margin-bottom: 8px; color: var(--text-soft); font-family: var(--mono); font-size: 9px; text-transform: uppercase; }
+        .prompt-line.compact { min-height: 42px; }
+        .modal-msg { min-height: 31px; padding-top: 9px; color: var(--muted); font-family: var(--mono); font-size: 9px; }
+        .modal-actions { gap: 8px; padding-top: 8px; }
+        .modal-foot { margin-top: 23px; padding-top: 20px; border-top: 1px solid var(--line); }
+        .modal-fields { display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: end; gap: 8px; }
+        .field { display: block; min-width: 0; }
+        .field > span { margin-bottom: 6px; }
+        .term-input.small { min-height: 36px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px; color: var(--text); background: rgba(5, 9, 11, .42); font-family: var(--mono); font-size: 10px; outline: 0; }
+        .term-input.small:focus { border-color: var(--accent-strong); box-shadow: 0 0 0 4px rgba(71, 216, 157, .08); }
+        .toast-container { position: fixed; right: 22px; bottom: 22px; z-index: 30; display: grid; gap: 8px; width: min(350px, calc(100% - 44px)); }
+        .toast { padding: 12px 14px; border: 1px solid var(--line-strong); border-radius: 10px; color: var(--text-soft); background: #111b1d; box-shadow: var(--shadow); font-size: 11px; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+        @media (max-width: 980px) {
+            .workspace-shell { grid-template-columns: 1fr; }
+            .tabs { flex-direction: row; align-items: center; border-right: 0; border-bottom: 1px solid var(--line); padding: 10px; }
+            .tab { justify-content: center; min-height: 40px; padding: 0 12px; }
+            .tab:hover { transform: translateY(-1px); }
+            .tab.active { box-shadow: inset 0 -3px 0 var(--accent-strong); }
+            .tabs-foot { display: none; }
+            .search-workspace { grid-template-columns: 265px minmax(0, 1fr); }
+        }
+
+        @media (max-width: 720px) {
+            .app { width: min(100% - 24px, 600px); padding-top: 12px; }
+            .topbar { min-height: 61px; padding-bottom: 13px; }
+            .brand-logo { width: 37px; height: 37px; border-radius: 11px; }
+            .brand-name { font-size: 15px; }
+            .brand-context { font-size: 8px; }
+            .lic-chip { padding: 0 9px; }
+            .lic-label { display: none; }
+            .workspace-shell { margin-top: 14px; border-radius: 17px; }
+            .tabs { gap: 5px; overflow-x: auto; }
+            .tab { flex: 1 0 auto; gap: 7px; font-size: 11px; }
+            .search-workspace { display: block; }
+            .search-controls { border-right: 0; border-bottom: 1px solid var(--line); padding: 23px 17px 25px; }
+            .search-results { padding: 22px 17px 17px; }
+            .output { min-height: 410px; }
+            .output-head { align-items: flex-start; flex-direction: column; gap: 10px; padding: 16px; }
+            .output-meta { align-self: auto; }
+            .results-footer { padding-inline: 1px; }
+            .panel-content { padding: 30px 17px 42px; }
+            .panel-hero h2 { font-size: 24px; }
+            .dropzone { padding: 33px 19px; }
+            .dropzone-inner { align-items: flex-start; }
+            .dropzone-title { font-size: 14px; }
+            .modal-fields { grid-template-columns: 1fr 1fr; }
+            .modal-fields .btn { grid-column: 1 / -1; }
+        }
+
+        .login-gate {
+            display: grid;
+            min-height: 100vh;
+            place-items: center;
+            padding: 24px;
+        }
+        .login-card {
+            width: min(100%, 480px);
+            padding: 32px;
+            border: 1px solid var(--line-strong);
+            border-radius: 22px;
+            background: rgba(12, 18, 21, .86);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(20px);
+        }
+        .login-kicker {
+            margin: 0 0 12px;
+            color: var(--accent);
+            font-family: var(--mono);
+            font-size: 10px;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+        }
+        .login-card h1 {
+            margin: 0;
+            font-size: clamp(26px, 5vw, 38px);
+            letter-spacing: -.05em;
+        }
+        .login-card p {
+            margin: 12px 0 24px;
+            color: var(--text-soft);
+            line-height: 1.6;
+        }
+        .login-label {
+            display: grid;
+            gap: 8px;
+            color: var(--text-soft);
+            font-family: var(--mono);
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+        .login-input {
+            width: 100%;
+            min-height: 48px;
+            padding: 0 14px;
+            border: 1px solid var(--line-strong);
+            border-radius: 10px;
+            outline: none;
+            color: var(--text);
+            background: rgba(5, 10, 12, .72);
+            font-family: var(--mono);
+            letter-spacing: .08em;
+        }
+        .login-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(154, 245, 206, .1); }
+        .login-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+        .login-actions .btn { flex: 1 1 170px; min-height: 44px; }
+        .login-message { min-height: 22px; margin-top: 15px; color: var(--text-soft); line-height: 1.45; }
+        .login-message.ok { color: var(--accent); }
+        .login-message.err { color: var(--danger); }
+        .login-note { margin-top: 22px !important; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted) !important; font-family: var(--mono); font-size: 11px; }
+
+        @media (max-width: 420px) {
+            .brand-text { min-width: 0; }
+            .brand-context { max-width: 105px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+            .btn-icon { display: none; }
+            .section-heading h1 { font-size: 21px; }
+            .search-actions .btn { flex: 1; }
+            .dropzone-inner { display: grid; justify-items: center; text-align: center; }
+            .credits-row { min-height: 47px; padding-inline: 13px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-gate" id="loginGate">
+        <section class="login-card" aria-labelledby="loginTitle">
+            <p class="login-kicker">SpeedPainel / acesso protegido</p>
+            <h1 id="loginTitle">Informe sua licença</h1>
+            <p>O painel valida a chave no servidor antes de liberar consultas, estatísticas e operações de arquivos.</p>
+            <form id="licenseLoginForm" autocomplete="off">
+                <label class="login-label" for="loginLicenseKey">Chave de licença
+                    <input class="login-input" type="text" id="loginLicenseKey" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="19" spellcheck="false" autocapitalize="characters" aria-describedby="loginMessage">
+                </label>
+                <div class="login-actions">
+                    <button class="btn btn-primary" id="loginSubmit" type="submit"><span class="btn-ic" aria-hidden="true">→</span><span class="lbl">Entrar</span></button>
+                    <button class="btn btn-warn" id="loginFreeBtn" type="button"><span class="lbl">Gerar gratuita</span></button>
+                </div>
+                <div class="login-message" id="loginMessage" role="status" aria-live="polite">Aguardando chave…</div>
+            </form>
+            <p class="login-note">Licenças pagas são emitidas pelo administrador através do gerador em <code>app/gerar_paga.py</code>.</p>
+        </section>
+    </div>
+
+    <div class="app" id="app" hidden>
+        <header class="topbar">
+            <div class="brand">
+                <div class="brand-logo" aria-hidden="true">SP</div>
+                <div class="brand-text">
+                    <div class="brand-line">
+                        <span class="brand-name">SpeedPainel</span>
+                        <span class="brand-tag">v2.0</span>
+                    </div>
+                    <span class="brand-context">índice de despacho</span>
+                </div>
+            </div>
+            <div class="topbar-actions">
+                <button class="lic-chip" id="licChip" data-state="inactive" type="button" title="Gerenciar licença" aria-label="Status da licença: inativa">
+                    <span class="lic-dot" id="licDot" aria-hidden="true"></span>
+                    <span class="lic-label">licença</span>
+                    <span class="lic-val" id="licVal">inativa</span>
+                </button>
+                <button class="btn-icon" id="openLicenca" type="button" aria-label="Gerenciar licença" title="Gerenciar licença">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <circle cx="7.5" cy="16.5" r="3.5"></circle>
+                        <path d="m10 14 9-9m0 0 3 3m-3-3-2.5-2.5M14 10l3 3"></path>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="workspace-shell">
+            <nav class="tabs" id="tabs" role="tablist" aria-label="Navegação principal">
+                <button class="tab active" id="tab-search" data-tab="search" role="tab" aria-selected="true" aria-controls="panel-search" tabindex="0" type="button">
+                    <svg class="tab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <path d="m20 20-4-4"></path>
+                    </svg>
+                    <span>Busca</span>
+                </button>
+                <button class="tab" id="tab-upload" data-tab="upload" role="tab" aria-selected="false" aria-controls="panel-upload" type="button">
+                    <svg class="tab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path d="M12 16V4"></path>
+                        <path d="m7 9 5-5 5 5"></path>
+                        <path d="M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"></path>
+                    </svg>
+                    <span>Upload</span>
+                </button>
+                <button class="tab" id="tab-credits" data-tab="credits" role="tab" aria-selected="false" aria-controls="panel-credits" type="button">
+                    <svg class="tab-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <circle cx="12" cy="12" r="8"></circle>
+                        <path d="M12 11v5"></path>
+                        <path d="M12 8h.01"></path>
+                    </svg>
+                    <span>Créditos</span>
+                </button>
+                <div class="tabs-foot" aria-hidden="true">
+                    <span class="tabs-rule"></span>
+                    <span class="tabs-shortcut">/</span>
+                </div>
+            </nav>
+
+            <main class="panels">
+                <section class="panel active" id="panel-search" role="tabpanel" aria-labelledby="tab-search">
+                    <div class="search-workspace">
+                        <aside class="search-controls" aria-label="Controles de consulta">
+                            <div class="search-heading">
+                                <div class="section-heading">
+                                    <h1>Consulta</h1>
+                                    <span class="section-meta">busca ativa</span>
+                                </div>
+                                <p>Localize um registro por identificador ou nome.</p>
+                            </div>
+
+                            <section class="status-card" id="statusCard" data-state="inactive" aria-labelledby="statusTitle">
+                                <div class="status-head">
+                                    <span class="led" id="statusLed" aria-hidden="true"></span>
+                                    <span class="status-title" id="statusTitle">Licença</span>
+                                </div>
+                                <dl class="status-grid">
+                                    <div class="status-cell">
+                                        <dt class="k">status</dt>
+                                        <dd class="v" id="statusVal">inativa</dd>
+                                    </div>
+                                    <div class="status-cell">
+                                        <dt class="k">usuário</dt>
+                                        <dd class="v" id="statusUser">—</dd>
+                                    </div>
+                                    <div class="status-cell">
+                                        <dt class="k">validade</dt>
+                                        <dd class="v" id="statusExpire">—</dd>
+                                    </div>
+                                    <div class="status-cell">
+                                        <dt class="k">tipo</dt>
+                                        <dd class="v" id="statusType">—</dd>
+                                    </div>
+                                </dl>
+                            </section>
+
+                            <section class="mode-section" aria-labelledby="modeTitle">
+                                <div class="section-heading">
+                                    <h2 id="modeTitle">Modo de consulta</h2>
+                                    <span class="section-meta">01—06</span>
+                                </div>
+                                <div class="modes" id="modesContainer" role="group" aria-label="Selecione o modo de consulta">
+                                    <button class="mode active" data-mode="cpf" type="button" aria-pressed="true">
+                                        <span class="ic" aria-hidden="true">01</span>
+                                        <span>CPF</span>
+                                        <span class="mode-current">ativo</span>
+                                    </button>
+                                    <button class="mode" data-mode="nome" type="button" aria-pressed="false">
+                                        <span class="ic" aria-hidden="true">02</span>
+                                        <span>Nome</span>
+                                        <span class="mode-current">ativo</span>
+                                    </button>
+                                    <button class="mode" data-mode="telefone" type="button" aria-pressed="false">
+                                        <span class="ic" aria-hidden="true">03</span>
+                                        <span>Telefone</span>
+                                        <span class="mode-current">ativo</span>
+                                    </button>
+                                    <button class="mode" data-mode="email" type="button" aria-pressed="false">
+                                        <span class="ic" aria-hidden="true">04</span>
+                                        <span>E-mail</span>
+                                        <span class="mode-current">ativo</span>
+                                    </button>
+                                    <button class="mode" data-mode="placa" type="button" aria-pressed="false">
+                                        <span class="ic" aria-hidden="true">05</span>
+                                        <span>Placa</span>
+                                        <span class="mode-current">ativo</span>
+                                    </button>
+                                    <button class="mode" data-mode="tudo" type="button" aria-pressed="false">
+                                        <span class="ic" aria-hidden="true">06</span>
+                                        <span>Tudo</span>
+                                        <span class="mode-current">ativo</span>
+                                    </button>
+                                </div>
+                            </section>
+
+                            <form class="search" id="queryForm" autocomplete="off" aria-label="Executar consulta">
+                                <label class="search-label" for="termoInput">
+                                    <span>CPF</span>
+                                    <span class="field-hint">identificador</span>
+                                </label>
+                                <div class="search-line">
+                                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                        <circle cx="11" cy="11" r="7"></circle>
+                                        <path d="m20 20-4-4"></path>
+                                    </svg>
+                                    <input type="text" id="termoInput" class="search-input" placeholder="012.345.678-90" spellcheck="false" autocapitalize="off" autocorrect="off" aria-label="Termo de busca" aria-describedby="searchHelp">
+                                </div>
+                                <div class="search-help" id="searchHelp">
+                                    <span>Exemplo: 012.345.678-90</span>
+                                    <kbd>enter</kbd>
+                                </div>
+                                <div class="search-actions">
+                                    <button class="btn btn-primary" id="buscarBtn" type="submit">
+                                        <span class="btn-ic" aria-hidden="true">→</span>
+                                        <span class="lbl">Executar</span>
+                                    </button>
+                                    <button class="btn btn-ghost" id="limparBtn" type="button">Limpar</button>
+                                </div>
+                            </form>
+
+                            <section class="base-summary" aria-labelledby="baseTitle">
+                                <div class="section-heading">
+                                    <h2 id="baseTitle">Base de dados</h2>
+                                    <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                                        <ellipse cx="12" cy="5" rx="7" ry="3"></ellipse>
+                                        <path d="M5 5v7c0 1.7 3.1 3 7 3s7-1.3 7-3V5"></path>
+                                        <path d="M5 12v7c0 1.7 3.1 3 7 3s7-1.3 7-3v-7"></path>
+                                    </svg>
+                                </div>
+                                <div class="stats-row">
+                                    <div class="stat-pill">
+                                        <span class="k">Banco</span>
+                                        <span class="stat-value"><span class="v" id="statPessoas">—</span><span class="u">pessoas</span></span>
+                                    </div>
+                                    <div class="stat-pill">
+                                        <span class="k">Pastebin</span>
+                                        <span class="stat-value"><span class="v" id="statPastebin">—</span><span class="u">CPFs</span></span>
+                                    </div>
+                                    <div class="stat-pill">
+                                        <span class="k">Uptime</span>
+                                        <span class="stat-value"><span class="v" id="statUptime">00:00:00</span></span>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section class="history-block" id="historyBlock" hidden aria-labelledby="historyTitle">
+                                <div class="block-head">
+                                    <span class="prompt" id="historyTitle">Histórico</span>
+                                    <span class="path">últimas consultas</span>
+                                    <button class="link-btn" id="clearHistoryBtn" type="button">limpar</button>
+                                </div>
+                                <div class="history" id="historyArea"></div>
+                            </section>
+                        </aside>
+
+                        <section class="search-results" aria-labelledby="resultsTitle">
+                            <div class="output" id="resultsOutput">
+                                <div class="output-head">
+                                    <div class="output-heading">
+                                        <div class="output-title-row">
+                                            <h2 id="resultsTitle">Resultados da consulta</h2>
+                                            <span class="output-mode">CPF</span>
+                                        </div>
+                                        <p>Selecione uma linha para abrir o detalhe completo do registro.</p>
+                                    </div>
+                                    <div class="output-meta">
+                                        <span class="path" id="outputState">pronto para consulta</span>
+                                    </div>
+                                </div>
+                                <div class="output-body" id="outputBody">
+                                    <div class="empty">
+                                        <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                                            <circle cx="11" cy="11" r="7"></circle>
+                                            <path d="m20 20-4-4"></path>
+                                            <path d="m8.5 8.5 5 5m0-5-5 5"></path>
+                                        </svg>
+                                        <p class="empty-title">Pronto para consultar</p>
+                                        <p class="muted">Selecione um modo e execute uma busca para ver os registros.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="results-footer">
+                                <span>SpeedPainel · consulta unificada</span>
+                                <span class="mono">v2.0.0</span>
+                            </footer>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="panel" id="panel-upload" role="tabpanel" aria-labelledby="tab-upload" hidden>
+                    <div class="panel-content upload-content">
+                        <div class="panel-hero">
+                            <div class="panel-hero-title">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                                    <path d="M12 16V4"></path>
+                                    <path d="m7 9 5-5 5 5"></path>
+                                    <path d="M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"></path>
+                                </svg>
+                                <div>
+                                    <span class="eyebrow">02 / administração</span>
+                                    <h2>Upload de bancos de dados</h2>
+                                </div>
+                            </div>
+                            <p class="muted">Envie arquivos <code>.json</code>, <code>.txt</code> ou <code>.csv</code> para <code>databases/</code>. A reimportação roda automaticamente após o upload.</p>
+                        </div>
+
+                        <div class="dropzone" id="dropzone">
+                            <input type="file" id="fileInput" multiple accept=".json,.txt,.csv" hidden>
+                            <div class="dropzone-inner">
+                                <div class="dropzone-icon" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                                        <path d="M12 16V4"></path>
+                                        <path d="m7 9 5-5 5 5"></path>
+                                        <path d="M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="dropzone-title">Arraste arquivos aqui</div>
+                                    <div class="dropzone-sub muted">ou clique para selecionar · json / txt / csv · até 200MB</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="upload-progress" id="uploadProgress" hidden>
+                            <div class="up-row">
+                                <span class="up-label" id="upLabel">Enviando…</span>
+                                <span class="up-pct mono" id="upPct">0%</span>
+                            </div>
+                            <div class="up-bar"><div class="up-fill" id="upFill"></div></div>
+                        </div>
+
+                        <div class="upload-list" id="uploadList"></div>
+
+                        <div class="files-card">
+                            <div class="files-head">
+                                <div>
+                                    <span class="prompt">Arquivos em </span><span class="path">databases/</span>
+                                </div>
+                                <span class="files-count path" id="filesCount">0 arquivos</span>
+                                <button class="btn btn-ghost btn-sm" id="refreshFiles" type="button">
+                                    <span class="btn-ic" aria-hidden="true">↻</span> atualizar
+                                </button>
+                            </div>
+                            <div class="files-body" id="filesBody">
+                                <div class="muted files-empty">Carregando arquivos…</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="panel" id="panel-credits" role="tabpanel" aria-labelledby="tab-credits" hidden>
+                    <div class="panel-content credits-content">
+                        <div class="credits">
+                            <div class="credits-hero">
+                                <div>
+                                    <span class="eyebrow">03 / informações do produto</span>
+                                    <div class="credits-title">SpeedPainel</div>
+                                    <div class="credits-sub muted">Terminal web para consulta unificada · v2.0</div>
+                                </div>
+                            </div>
+
+                            <div class="credits-card">
+                                <div class="credits-row"><span class="k">Projeto</span><span class="v">SpeedPainel</span></div>
+                                <div class="credits-row"><span class="k">Autor</span><span class="v highlight">By Speed7xiss</span></div>
+                                <div class="credits-row"><span class="k">Discord</span><span class="v mono">peed7xiss_12333</span></div>
+                                <div class="credits-row"><span class="k">Versão</span><span class="v mono">v2.0.0</span></div>
+                                <div class="credits-row"><span class="k">Licença</span><span class="v tag-mit">MIT</span></div>
+                            </div>
+
+                            <div class="credits-thanks">
+                                <div class="kicker">Agradecimentos</div>
+                                <p>Obrigado a quem testa, reporta bugs e mantém a casa rodando.</p>
+                            </div>
+
+                            <div class="credits-stack">
+                                <div class="kicker">Stack</div>
+                                <div class="stack-grid">
+                                    <span class="chip">Python 3.10+</span>
+                                    <span class="chip">Flask</span>
+                                    <span class="chip">SQLite WAL</span>
+                                    <span class="chip">Vanilla JS</span>
+                                    <span class="chip">CSS moderno</span>
+                                    <span class="chip">HTML5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <span>SpeedPainel · ferramenta de consulta interna</span>
+            <span class="footer-separator">·</span>
+            <span class="muted">MIT License</span>
+            <span class="footer-separator">·</span>
+            <span class="muted mono">build 2026.09</span>
+        </footer>
+    </div>
+
+    <div class="modal" id="licencaModal" role="dialog" aria-modal="true" aria-labelledby="licencaTitle" hidden>
+        <div class="modal-window">
+            <div class="modal-head">
+                <div class="modal-heading">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                        <circle cx="7.5" cy="16.5" r="3.5"></circle>
+                        <path d="m10 14 9-9m0 0 3 3m-3-3-2.5-2.5M14 10l3 3"></path>
+                    </svg>
+                    <span class="modal-title" id="licencaTitle">Licença</span>
+                </div>
+                <button class="modal-close" id="closeModalBtn" type="button" aria-label="Fechar licença">×</button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-hint">Ative uma chave existente ou gere uma nova licença para esta instalação.</p>
+                <label class="modal-label" for="chaveInput">Chave de licença</label>
+                <div class="prompt-line compact">
+                    <input type="text" id="chaveInput" class="term-input chave" placeholder="XXXX-XXXX-XXXX-XXXX" spellcheck="false" autocapitalize="characters" maxlength="19" aria-label="Chave de licença" aria-describedby="licencaMensagem">
+                </div>
+                <div class="modal-msg" id="licencaMensagem" role="status" aria-live="polite">Aguardando chave…</div>
+                <div class="modal-actions">
+                    <button class="btn btn-primary" id="validarBtn" type="button"><span class="btn-ic" aria-hidden="true">→</span> ativar</button>
+                    <button class="btn btn-warn" id="gratisBtn" type="button">gerar gratuita</button>
+                </div>
+                <div class="modal-foot">
+                    <div class="modal-group-label">Emissão administrativa</div>
+                    <p class="muted">A geração de licenças pagas não fica exposta no navegador. O administrador deve usar <code>python -m app.gerar_paga</code> no servidor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+    <div class="sr-only" id="liveRegion" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v=23"></script>
+</body>
+</html>
