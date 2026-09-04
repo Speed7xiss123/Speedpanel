@@ -1,0 +1,12 @@
+[project]
+name = "speedpainel"
+version = "2.1.0"
+description = "Painel web de consulta com backend Flask"
+requires-python = ">=3.10"
+dependencies = [
+    "Flask>=3.0,<4",
+    "requests>=2.31.0",
+]
+
+[tool.vercel]
+entrypoint = "app.web:app"
